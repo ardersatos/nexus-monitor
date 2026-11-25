@@ -2,7 +2,7 @@
 
 Monitor do PC (CPU, GPU, RAM, temperaturas, rede, FPS), página de Performance com otimizações reversíveis, perfis por jogo, overlay em jogo e addon para Stream Deck. Tudo corre localmente no teu PC.
 
-**Transferir:** abre a pasta [versoes](versoes) e escolhe a versão mais recente:
+**Transferir:** abre a pasta [versoes](versoes) e escolhe a versão mais recente (agora: **v2.2.1**):
 - `NEXUS Monitor vX.zip` — instalação completa (corre `INSTALAR NEXUS.bat`).
 - `NEXUS Monitor vX (update).zip` — só os ficheiros que mudaram, para quem tem uma das 2 versões anteriores (corre `ATUALIZAR NEXUS.bat`).
 
