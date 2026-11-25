@@ -1,17 +1,17 @@
 {
- "ver": "2.2.1",
+ "ver": "2.2.2",
  "date": "2026-11-25",
- "full": "versoes/v2.2.1/NEXUS-Monitor-v2.2.1.zip",
- "full_sha256": "8b880ed57de2789391c37e53847bd055fd7c511774f2d392bfde8fdb03c84f9e",
- "full_size": 697476,
- "update": "versoes/v2.2.1/NEXUS-Monitor-v2.2.1-update.zip",
- "update_sha256": "564d97401c10be9ccf1f823c7ac74fadeb8c743401d21f9a3c01b87f66df23ae",
- "update_size": 514568,
- "updater": "versoes/v2.2.1/ATUALIZAR NEXUS.bat",
- "updater_sha256": "e7168ef1632f5f7daca6a1ec9074689b3c8cfafea6265b73d2b40555dbb4981d",
+ "full": "versoes/v2.2.2/NEXUS-Monitor-v2.2.2.zip",
+ "full_sha256": "0f5abe5b87bc76ee8f24cc6af326e78613c434cae0040b1813565220f3825564",
+ "full_size": 699041,
+ "update": "versoes/v2.2.2/NEXUS-Monitor-v2.2.2-update.zip",
+ "update_sha256": "9db97a3344681a6cbccdd7f391f106521ad9887056bc230648ba44179ca7d252",
+ "update_size": 518531,
+ "updater": "versoes/v2.2.2/ATUALIZAR NEXUS.bat",
+ "updater_sha256": "533b1b8fa3d3cc1270f4a5e30dedf8e07d41b1e51758a3a8e16165cf7d9f805f",
  "update_from": [
-  "2.1",
-  "2.2"
+  "2.2",
+  "2.2.1"
  ],
  "update_files": [
   "ATUALIZACOES.txt",
@@ -19,10 +19,9 @@
   "LEIA-ME.txt",
   "NexusMonitor.cs",
   "README.txt",
+  "codigo\\Atualizar.cs",
   "codigo\\Controlo.cs",
-  "codigo\\Dados.cs",
   "codigo\\Definicoes.cs",
-  "codigo\\Janelas.cs",
   "codigo\\Mais.cs",
   "codigo\\Otimizacao.cs",
   "codigo\\Sensores.cs",
@@ -30,42 +29,15 @@
   "disk.html",
   "i18n.js",
   "index.html",
-  "perf.html"
+  "perf.html",
+  "streamdeck\\NexusDeck.cs"
  ],
  "notes_pt": [
-  "Ventoinhas: curvas pela temperatura do CPU ou da GPU, ou valor fixo (modo Completo).",
-  "Ladrões de FPS: quando os FPS caem, o NEXUS vê que programas estavam a gastar o processador.",
-  "Ping em jogo (latência, jitter e perdidos) e o DNS mais rápido com um clique.",
-  "Limpeza automática semanal ou diária, nunca a meio de um jogo.",
-  "BIOS e drivers antigos, com as páginas oficiais.",
-  "Modo streaming (Alt+Shift+P): esconde IPs, nome do PC e pastas.",
-  "O teu PC comparado com outros e FPS esperados.",
-  "Notificações no telemóvel (app ntfy), mesmo fora de casa.",
-  "Overlay com letra, cores, contorno, ping e gráfico de frametime.",
-  "Assistente de configuração e Wake-on-LAN para ligar o PC à distância.",
-  "Performance arrumada em separadores (Início, Jogos, Otimizar, Hardware, Rede, Sistema) e explicações atrás do ⓘ.",
-  "Cenários com um clique (Silencioso, Normal, Máximo e os teus), não incomodar em jogo e limite de FPS automático.",
-  "Teste de estabilidade da placa gráfica, verificações (Hz do monitor, XMP, PCIe), bateria e teste do monitor.",
-  "Crashes explicados, reparar o Windows (SFC/DISM), tempo de arranque e programas como administrador.",
-  "Velocidade dos discos e ficheiros duplicados no Deep Scan; desgaste dos SSD pelo SMART.",
-  "Avisar, suspender ou desligar quando uma transferência acaba, outros PCs da casa e partilhar resultados como imagem."
+  "Corrigido: o plugin da Stream Deck fechava-se logo ao abrir desde a 2.1 (a Stream Deck acabava por o desativar).",
+  "Procura atualizações sempre que o NEXUS abre e de hora a hora (se a ligação ao GitHub estiver ligada)."
  ],
  "notes_en": [
-  "Fans: curves by CPU or GPU temperature, or a fixed speed (Full mode).",
-  "FPS thieves: when FPS drops, NEXUS sees which programs were using the processor.",
-  "In-game ping (latency, jitter and loss) and the fastest DNS in one click.",
-  "Weekly or daily automatic cleanup, never during a game.",
-  "BIOS and old drivers, with the official pages.",
-  "Streaming mode (Alt+Shift+P): hides IPs, PC name and folders.",
-  "Your PC compared with others and expected FPS.",
-  "Phone notifications (ntfy app), even away from home.",
-  "Overlay with font, colors, border, ping and frametime graph.",
-  "Setup assistant and Wake-on-LAN to turn the PC on remotely.",
-  "Performance organized in tabs (Home, Games, Optimize, Hardware, Network, System) with explanations behind the ⓘ.",
-  "One-click scenarios (Quiet, Normal, Maximum and your own), do not disturb in games and automatic FPS limit.",
-  "Graphics card stability test, checks (monitor Hz, XMP, PCIe), battery and monitor test.",
-  "Crashes explained, repair Windows (SFC/DISM), startup time and programs as administrator.",
-  "Disk speed and duplicate files in Deep Scan; SSD wear from SMART.",
-  "Notify, sleep or shut down when a download finishes, other PCs at home and share results as an image."
+  "Fixed: the Stream Deck plugin closed right after starting since 2.1 (Stream Deck then disabled it).",
+  "Checks for updates every time NEXUS opens and every hour (if the GitHub connection is on)."
  ]
 }
