@@ -1,0 +1,11 @@
+{
+ "ver": "2.0",
+ "date": "2026-11-25",
+ "full": "versoes/v2.0/NEXUS-Monitor-v2.0.zip",
+ "full_sha256": "40c08ce13d997e2f6ba342f9a6f1e32db517b1ecf64664eceba10812a9553cce",
+ "update": "versoes/v2.0/NEXUS-Monitor-v2.0-update.zip",
+ "update_sha256": "84b3cea1afda3f015834595e853739a5b78439d6bc083c5a4fb2be891a02bff1",
+ "update_from": ["1.8", "1.9"],
+ "notes_pt": ["Perfis por jogo", "Medir FPS (média, 1% e 0,1% low)", "Updates mais pequenas, até 2 versões atrás"],
+ "notes_en": ["Per-game profiles", "FPS benchmark (average, 1% and 0.1% low)", "Smaller updates, up to 2 versions back"]
+}
