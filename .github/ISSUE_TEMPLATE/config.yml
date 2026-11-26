@@ -1,5 +1,5 @@
 blank_issues_enabled: false
 contact_links:
-  - name: 🔒 Privacidade / Privacy
-    url: https://github.com/ardersatos/nexus-monitor/blob/main/PRIVACIDADE.md
-    about: O que o NEXUS liga à internet e porquê / What NEXUS connects to and why
+  - name: 🔒 Privacy / Privacidade
+    url: https://github.com/ardersatos/nexus-monitor/blob/main/PRIVACY.md
+    about: What NEXUS connects to and why / O que o NEXUS liga à internet e porquê

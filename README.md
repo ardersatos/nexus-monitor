@@ -2,107 +2,107 @@
 
 # ◈ NEXUS // MONITOR
 
-**Monitor do PC, otimizações para jogos e controlo pelo telemóvel — tudo a correr só no teu PC.**
+**PC monitor, gaming optimisations and phone control — everything runs on your own PC.**
 
-![Versão](https://img.shields.io/badge/vers%C3%A3o-2.3-8fd8ff?style=for-the-badge)
+![Version](https://img.shields.io/badge/version-2.3-8fd8ff?style=for-the-badge)
 ![Windows](https://img.shields.io/badge/Windows-10%20%7C%2011-c4b5ff?style=for-the-badge&logo=windows11&logoColor=white)
-![Privacidade](https://img.shields.io/badge/dados-ficam%20no%20PC-7dffcf?style=for-the-badge)
-![Línguas](https://img.shields.io/badge/PT%20%C2%B7%20EN%20%C2%B7%20ES%20%C2%B7%20FR%20%C2%B7%20DE-ffd27a?style=for-the-badge)
-![Licença](https://img.shields.io/badge/licen%C3%A7a-MIT-ff6b8a?style=for-the-badge)
+![Privacy](https://img.shields.io/badge/data-stays%20on%20your%20PC-7dffcf?style=for-the-badge)
+![Languages](https://img.shields.io/badge/PT%20%C2%B7%20EN%20%C2%B7%20ES%20%C2%B7%20FR%20%C2%B7%20DE-ffd27a?style=for-the-badge)
+![License](https://img.shields.io/badge/license-MIT-ff6b8a?style=for-the-badge)
 
-[**⬇ Transferir v2.3**](versoes/v2.3/NEXUS-Monitor-v2.3.zip?raw=1) · [Atualização pequena](versoes/v2.3/NEXUS-Monitor-v2.3-update.zip?raw=1) · [Novidades](CHANGELOG.md) · [Privacidade](PRIVACIDADE.md) · [English](README.en.md)
+[**⬇ Download v2.3**](versoes/v2.3/NEXUS-Monitor-v2.3.zip?raw=1) · [Small update](versoes/v2.3/NEXUS-Monitor-v2.3-update.zip?raw=1) · [Changelog](CHANGELOG.md) · [Privacy](PRIVACY.md) · [Português](README.pt.md)
 
-<img src="docs/img/painel.png" alt="Painel principal do NEXUS Monitor" width="900">
+<img src="docs/img/painel.png" alt="NEXUS Monitor main dashboard" width="900">
 
 </div>
 
 ---
 
-## O que é
+## What it is
 
-O NEXUS Monitor é uma app para Windows que mostra, em tempo real e numa página bonita no browser, tudo o que se passa no PC: processador, núcleos, RAM, placa gráfica, temperaturas, ventoinhas, consumo, discos, rede e os **FPS e a latência dos jogos**. Junta uma página de **Performance** com dezenas de otimizações do Windows (todas explicadas e reversíveis), um **Deep Scan** para os discos, um **overlay em jogo**, um **plugin para a Stream Deck** e acesso pelo **telemóvel** na rede de casa.
+NEXUS Monitor is a Windows app that shows everything happening on your PC in real time, on a good-looking page in your browser: processor, cores, RAM, graphics card, temperatures, fans, power, drives, network and **game FPS and latency**. It also has a **Performance** page with dozens of Windows optimisations (all explained and reversible), a **Deep Scan** for your drives, an **in-game overlay**, a **Stream Deck plugin** and **phone** access on your home network.
 
-É feito para quem joga, mas explicado para quem não percebe de PCs: cada cartão tem uma explicação, e o botão 🧒 **SIMPLES** mostra-a em linguagem de criança.
+It's made for gamers but explained for people who don't know much about PCs: every card has an explanation, and the 🧒 **SIMPLE** button puts it in plain words.
 
-## Destaques
+## Highlights
 
 | | |
 |---|---|
-| 📊 **Monitor ao vivo** | CPU por núcleo, RAM, GPU, temperaturas, ventoinhas, consumo, discos, rede, processos e FPS/1% low/frametime dos jogos (PresentMon). |
-| ⚡ **Performance** | Otimizações do Windows para jogos com risco, ganho estimado e REPOR; debloat; perfis por jogo; limite de FPS; boost de jogo; teste de estabilidade (CPU, RAM e GPU). |
-| 🎮 **Jogos** | Sessões com FPS e gargalo, engasgos por minuto, tempo de carregamento por disco, fechar programas ao jogar, overlays ativos, medições antes/depois. |
-| 🖥 **Hardware** | Fonte de alimentação (chega?), o que limita o boost, simulador de upgrade, inventário com garantias, ventoinhas (curvas e proteção da bomba de água), BIOS e drivers. |
-| 💽 **Discos** | Saúde e vida dos SSD, velocidade, otimizar (TRIM/desfragmentar), espaço escondido, duplicados, limpeza e desinstalador sem restos. |
-| 🌐 **Rede** | Ping contínuo, melhor DNS, teste de velocidade e de bufferbloat, Wi-Fi, quem usa a internet, prioridade de rede para o jogo, Wake-on-LAN. |
-| 🔒 **Sistema** | Segurança do Windows, versão e fim do suporte, atualizações (desinstalar uma), crashes explicados, reparar o Windows, tempo de arranque. |
-| 📱 **Telemóvel** | Painel no telemóvel (app no ecrã principal), comando para o PC, abrir jogos, desligar quando um download acaba. Cada telemóvel é aceite no PC. |
-| 🎛 **Stream Deck** | Teclas com gráficos ao vivo, ações do NEXUS e música com a capa do que está a tocar. |
+| 📊 **Live monitor** | Per-core CPU, RAM, GPU, temperatures, fans, power, drives, network, processes and game FPS/1% low/frametime (PresentMon). |
+| ⚡ **Performance** | Windows gaming optimisations with risk level, estimated gain and RESTORE; debloat; per-game profiles; FPS limit; game boost; stability test (CPU, RAM and GPU). |
+| 🎮 **Games** | Sessions with FPS and bottleneck, stutters per minute, loading time per drive, close programs while gaming, active overlays, before/after benchmarks. |
+| 🖥 **Hardware** | Power supply (is it enough?), what limits boost, upgrade simulator, inventory with warranties, fans (curves and pump protection), BIOS and drivers. |
+| 💽 **Drives** | SSD health and life, speed, optimise (TRIM/defrag), hidden space, duplicates, cleanup and a leftover-free uninstaller. |
+| 🌐 **Network** | Continuous ping, best DNS, speed and bufferbloat tests, Wi-Fi, who's using the internet, game network priority, Wake-on-LAN. |
+| 🔒 **System** | Windows security, version and end of support, updates (uninstall one), crashes explained, Windows repair, boot time. |
+| 📱 **Phone** | Dashboard on your phone (home-screen app), gamepad for the PC, launch games, shut down when a download finishes. Each phone must be accepted on the PC. |
+| 🎛 **Stream Deck** | Keys with live graphs, NEXUS actions and music with the cover of what's playing. |
 
 <table>
 <tr>
-<td><img src="docs/img/performance.png" alt="Otimizações" width="440"></td>
-<td><img src="docs/img/jogos.png" alt="Jogos" width="440"></td>
+<td><img src="docs/img/performance.png" alt="Optimisations" width="440"></td>
+<td><img src="docs/img/jogos.png" alt="Games" width="440"></td>
 </tr>
 <tr>
 <td><img src="docs/img/hardware.png" alt="Hardware" width="440"></td>
-<td><img src="docs/img/discos.png" alt="Discos" width="440"></td>
+<td><img src="docs/img/discos.png" alt="Drives" width="440"></td>
 </tr>
 </table>
 
-<sub>Imagens com dados de exemplo.</sub>
+<sub>Screenshots with sample data, interface in Portuguese (it switches to your language).</sub>
 
-## Instalar
+## Install
 
-1. Transfere **[NEXUS Monitor v2.3.zip](versoes/v2.3/NEXUS-Monitor-v2.3.zip?raw=1)**.
-2. Botão direito no zip → **Extrair tudo…** (não corras nada de dentro do zip).
-3. Abre a pasta e faz duplo clique em **`INSTALAR NEXUS.bat`**.
-4. Escolhe a pasta (ou deixa a sugerida), os extras opcionais e aceita o pedido de administrador.
+1. Download **[NEXUS Monitor v2.3.zip](versoes/v2.3/NEXUS-Monitor-v2.3.zip?raw=1)**.
+2. Right-click the zip → **Extract All…** (don't run anything from inside the zip).
+3. Open the folder and double-click **`INSTALAR NEXUS.bat`**.
+4. Pick the folder (or keep the suggested one), the optional extras and accept the administrator prompt.
 
-O instalador compila o NEXUS no próprio PC (com o compilador do .NET que já vem com o Windows) e descarrega o LibreHardwareMonitor para ler os sensores. Extras opcionais: PresentMon (FPS), gdu (Deep Scan) e o plugin da Stream Deck.
+The installer compiles NEXUS on your own PC (with the .NET compiler that ships with Windows) and downloads LibreHardwareMonitor to read the sensors. Optional extras: PresentMon (FPS), gdu (Deep Scan) and the Stream Deck plugin.
 
-**Requisitos:** Windows 10 ou 11 (64 bits), .NET Framework 4.8 (já vem com o Windows), ligação à internet na instalação.
+**Requirements:** Windows 10 or 11 (64-bit), .NET Framework 4.8 (included with Windows), internet connection during install.
 
-## Atualizar
+## Update
 
-- **Pelo próprio NEXUS:** ele procura versões novas ao abrir e de hora a hora e mostra o que muda. Carregas em **INSTALAR** e trata de tudo (confirma o SHA-256 do download antes de instalar).
-- **À mão:** se tens uma das duas versões anteriores, transfere a **[atualização pequena](versoes/v2.3/NEXUS-Monitor-v2.3-update.zip?raw=1)**, extrai e corre `ATUALIZAR NEXUS.bat`. Se não, usa o zip completo.
+- **From NEXUS itself:** it checks for new versions when it opens and every hour and shows what changes. Press **INSTALL** and it does the rest (it verifies the download's SHA-256 first).
+- **By hand:** if you have one of the two previous versions, download the **[small update](versoes/v2.3/NEXUS-Monitor-v2.3-update.zip?raw=1)**, extract it and run `ATUALIZAR NEXUS.bat`. Otherwise use the full zip.
 
-A verificação de atualizações pode ser desligada em **Opções → Geral**. Todas as versões estão em [`versoes/`](versoes).
+Update checks can be turned off in **Options → General**. Every version is in [`versoes/`](versoes).
 
-## Privacidade
+## Privacy
 
-Nada sai do teu PC: não há contas, anúncios, telemetria nem servidores do NEXUS. As únicas ligações à internet são as que pedes (teste de velocidade, notificações ntfy) e a verificação de atualizações neste repositório, que se pode desligar. Detalhes em **[PRIVACIDADE.md](PRIVACIDADE.md)**.
+Nothing leaves your PC: no accounts, ads, telemetry or NEXUS servers. The only internet connections are the ones you ask for (speed test, ntfy notifications) and the update check against this repository, which can be turned off. Details in **[PRIVACY.md](PRIVACY.md)**.
 
-## Perguntas frequentes
+## FAQ
 
-<details><summary><b>O antivírus diz que é perigoso. É?</b></summary>
+<details><summary><b>My antivirus says it's dangerous. Is it?</b></summary>
 
-O NEXUS é compilado no teu PC a partir do código que vem no zip (podes lê-lo na pasta `codigo`). Programas novos e sem assinatura às vezes são marcados por engano pela análise automática. Se acontecer, envia o ficheiro à Microsoft como falso positivo e diz-nos numa [issue](../../issues).
+NEXUS is compiled on your PC from the source code in the zip (you can read it in the `codigo` folder). New, unsigned programs are sometimes flagged by mistake by automatic analysis. If that happens, submit the file to Microsoft as a false positive and let us know in an [issue](../../issues).
 </details>
 
-<details><summary><b>As otimizações podem estragar o Windows?</b></summary>
+<details><summary><b>Can the optimisations break Windows?</b></summary>
 
-Cada uma mostra o risco, e o NEXUS guarda o valor original antes de mudar. **REPOR** volta exatamente ao que estava. Antes de aplicar, é criado um ponto de restauro do Windows (no máximo um por dia).
+Each one shows its risk, and NEXUS saves the original value before changing anything. **RESTORE** puts it back exactly as it was. A Windows restore point is created before applying (at most one per day).
 </details>
 
-<details><summary><b>Não aparecem temperaturas ou ventoinhas.</b></summary>
+<details><summary><b>No temperatures or fans show up.</b></summary>
 
-Confirma que o NEXUS corre como administrador e que o modo de sensores é o "Completo" (Opções → Geral). Algumas placas-mãe não deixam ler certas ventoinhas.
+Make sure NEXUS runs as administrator and the sensor mode is "Complete" (Options → General). Some motherboards don't allow reading certain fans.
 </details>
 
-<details><summary><b>Como desinstalo?</b></summary>
+<details><summary><b>How do I uninstall?</b></summary>
 
-Em **Definições → Aplicações** ou com `DESINSTALAR NEXUS.bat` na pasta do NEXUS. Se quiseres o Windows como estava, carrega antes em **REPOR** na Performance.
+From **Settings → Apps** or with `DESINSTALAR NEXUS.bat` in the NEXUS folder. If you want Windows exactly as before, press **RESTORE** on the Performance page first.
 </details>
 
-## Licença
+## License
 
-[MIT](LICENSE): podes usar, copiar, alterar e partilhar o NEXUS à vontade, desde que mantenhas o aviso de licença. Os componentes descarregados na instalação (LibreHardwareMonitor, PawnIO, PresentMon, gdu) têm as licenças deles.
+[MIT](LICENSE): you can use, copy, change and share NEXUS freely, as long as you keep the license notice. Components downloaded during install (LibreHardwareMonitor, PawnIO, PresentMon, gdu) have their own licenses.
 
-## Problemas e ideias
+## Issues and ideas
 
-Encontraste um erro ou tens uma ideia? Abre uma [issue](../../issues/new/choose). Para erros, junta a versão (canto inferior do painel), o Windows que usas e o que aconteceu.
+Found a bug or have an idea? Open an [issue](../../issues/new/choose). For bugs, include the version (bottom of the dashboard), your Windows version and what happened.
 
 ---
 
-<div align="center"><sub>NEXUS Monitor · <a href="CHANGELOG.md">histórico de versões</a></sub></div>
+<div align="center"><sub>NEXUS Monitor · <a href="CHANGELOG.md">version history</a></sub></div>
