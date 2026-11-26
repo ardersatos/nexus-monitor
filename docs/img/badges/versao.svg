@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="133" height="28" role="img" aria-label="VERSÃO V2.4">
-<rect width="75" height="28" fill="#555"/><rect x="75" width="58" height="28" fill="#8fd8ff"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="150" height="28" role="img" aria-label="VERSÃO V2.4.1">
+<rect width="75" height="28" fill="#555"/><rect x="75" width="75" height="28" fill="#8fd8ff"/>
 <g font-family="Verdana,DejaVu Sans,sans-serif" font-size="10" letter-spacing="1.2" text-anchor="middle">
 <text x="37.5" y="17.5" fill="#fff">VERSÃO</text>
-<text x="104.0" y="17.5" fill="#111" font-weight="bold">V2.4</text></g></svg>
+<text x="112.5" y="17.5" fill="#111" font-weight="bold">V2.4.1</text></g></svg>

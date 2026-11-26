@@ -2,6 +2,11 @@
 
 Every version is in [`versoes/`](versoes). NEXUS shows these notes in the WHAT'S NEW window.
 
+## v2.4.1
+[⬇ full zip](versoes/v2.4.1/NEXUS-Monitor-v2.4.1.zip?raw=1) · [update](versoes/v2.4.1/NEXUS-Monitor-v2.4.1-update.zip?raw=1)
+
+- Fixed: the 2nd MONITOR button (and SMALL PANEL) opened a page showing "404" instead of the panel.
+
 ## v2.4
 [⬇ full zip](versoes/v2.4/NEXUS-Monitor-v2.4.zip?raw=1) · [update](versoes/v2.4/NEXUS-Monitor-v2.4-update.zip?raw=1)
 
