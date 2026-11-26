@@ -4,11 +4,11 @@
 
 **PC monitor, gaming optimisations and phone control — everything runs on your own PC.**
 
-![Version](https://img.shields.io/badge/version-2.3-8fd8ff?style=for-the-badge)
-![Windows](https://img.shields.io/badge/Windows-10%20%7C%2011-c4b5ff?style=for-the-badge&logo=windows11&logoColor=white)
-![Privacy](https://img.shields.io/badge/data-stays%20on%20your%20PC-7dffcf?style=for-the-badge)
-![Languages](https://img.shields.io/badge/PT%20%C2%B7%20EN%20%C2%B7%20ES%20%C2%B7%20FR%20%C2%B7%20DE-ffd27a?style=for-the-badge)
-![License](https://img.shields.io/badge/license-MIT-ff6b8a?style=for-the-badge)
+![Version](docs/img/badges/version.svg)
+![Windows](docs/img/badges/windows.svg)
+![Privacy](docs/img/badges/privacy.svg)
+![Languages](docs/img/badges/langs.svg)
+![License](docs/img/badges/license.svg)
 
 [**⬇ Download v2.3**](versoes/v2.3/NEXUS-Monitor-v2.3.zip?raw=1) · [Small update](versoes/v2.3/NEXUS-Monitor-v2.3-update.zip?raw=1) · [Changelog](CHANGELOG.md) · [Privacy](PRIVACY.md) · [Português](README.pt.md)
 

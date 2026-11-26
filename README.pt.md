@@ -4,11 +4,11 @@
 
 **Monitor do PC, otimizações para jogos e controlo pelo telemóvel — tudo a correr só no teu PC.**
 
-![Versão](https://img.shields.io/badge/NEXUS-v2.3-8fd8ff?style=for-the-badge)
-![Windows](https://img.shields.io/badge/Windows-10%20%7C%2011-c4b5ff?style=for-the-badge&logo=windows11&logoColor=white)
-![Privacidade](https://img.shields.io/badge/dados-ficam%20no%20PC-7dffcf?style=for-the-badge)
-![Línguas](https://img.shields.io/badge/PT%20%C2%B7%20EN%20%C2%B7%20ES%20%C2%B7%20FR%20%C2%B7%20DE-ffd27a?style=for-the-badge)
-![Licença](https://img.shields.io/badge/MIT-livre%20e%20aberto-ff6b8a?style=for-the-badge)
+![Versão](docs/img/badges/versao.svg)
+![Windows](docs/img/badges/windows.svg)
+![Privacidade](docs/img/badges/privacidade.svg)
+![Línguas](docs/img/badges/langs.svg)
+![Licença](docs/img/badges/licenca.svg)
 
 [**⬇ Transferir v2.3**](versoes/v2.3/NEXUS-Monitor-v2.3.zip?raw=1) · [Atualização pequena](versoes/v2.3/NEXUS-Monitor-v2.3-update.zip?raw=1) · [Novidades](CHANGELOG.pt.md) · [Privacidade](PRIVACIDADE.md) · [English](README.md)
 
