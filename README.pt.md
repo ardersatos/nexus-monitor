@@ -10,7 +10,7 @@
 ![Línguas](docs/img/badges/langs.svg)
 ![Licença](docs/img/badges/licenca.svg)
 
-[**⬇ Transferir v2.3**](versoes/v2.3/NEXUS-Monitor-v2.3.zip?raw=1) · [Atualização pequena](versoes/v2.3/NEXUS-Monitor-v2.3-update.zip?raw=1) · [Novidades](CHANGELOG.pt.md) · [Privacidade](PRIVACIDADE.md) · [English](README.md)
+[**⬇ Transferir v2.3.1**](versoes/v2.3.1/NEXUS-Monitor-v2.3.1.zip?raw=1) · [Atualização pequena](versoes/v2.3.1/NEXUS-Monitor-v2.3.1-update.zip?raw=1) · [Novidades](CHANGELOG.pt.md) · [Perguntas](FAQ.pt.md) · [Privacidade](PRIVACIDADE.md) · [English](README.md)
 
 <img src="docs/img/painel.png" alt="Painel principal do NEXUS Monitor" width="900">
 
@@ -53,10 +53,10 @@ O NEXUS Monitor é uma app para Windows que mostra, em tempo real e numa página
 
 ## Instalar
 
-1. Transfere **[NEXUS Monitor v2.3.zip](versoes/v2.3/NEXUS-Monitor-v2.3.zip?raw=1)**.
+1. Transfere **[NEXUS Monitor v2.3.1.zip](versoes/v2.3.1/NEXUS-Monitor-v2.3.1.zip?raw=1)**.
 2. Botão direito no zip → **Extrair tudo…** (não corras nada de dentro do zip).
-3. Abre a pasta e faz duplo clique em **`INSTALAR NEXUS.bat`**.
-4. Escolhe a pasta (ou deixa a sugerida), os extras opcionais e aceita o pedido de administrador.
+3. Abre a pasta e faz duplo clique em **`INSTALL NEXUS.bat`**.
+4. Escolhe a pasta (ou deixa a sugerida), os extras opcionais e aceita o pedido de administrador. O instalador fala a língua do Windows.
 
 O instalador compila o NEXUS no próprio PC (com o compilador do .NET que já vem com o Windows) e descarrega o LibreHardwareMonitor para ler os sensores. Extras opcionais: PresentMon (FPS), gdu (Deep Scan) e o plugin da Stream Deck.
 
@@ -65,7 +65,7 @@ O instalador compila o NEXUS no próprio PC (com o compilador do .NET que já ve
 ## Atualizar
 
 - **Pelo próprio NEXUS:** ele procura versões novas ao abrir e de hora a hora e mostra o que muda. Carregas em **INSTALAR** e trata de tudo (confirma o SHA-256 do download antes de instalar).
-- **À mão:** se tens uma das duas versões anteriores, transfere a **[atualização pequena](versoes/v2.3/NEXUS-Monitor-v2.3-update.zip?raw=1)**, extrai e corre `ATUALIZAR NEXUS.bat`. Se não, usa o zip completo.
+- **À mão:** se tens uma das duas versões anteriores, transfere a **[atualização pequena](versoes/v2.3.1/NEXUS-Monitor-v2.3.1-update.zip?raw=1)**, extrai e corre `UPDATE NEXUS.bat`. Se não, usa o zip completo.
 
 A verificação de atualizações pode ser desligada em **Opções → Geral**. Todas as versões estão em [`versoes/`](versoes).
 
@@ -74,6 +74,8 @@ A verificação de atualizações pode ser desligada em **Opções → Geral**. 
 Nada sai do teu PC: não há contas, anúncios, telemetria nem servidores do NEXUS. As únicas ligações à internet são as que pedes (teste de velocidade, notificações ntfy) e a verificação de atualizações neste repositório, que se pode desligar. Detalhes em **[PRIVACIDADE.md](PRIVACIDADE.md)**.
 
 ## Perguntas frequentes
+
+Todas as perguntas e respostas: **[FAQ.pt.md](FAQ.pt.md)**. As mais comuns:
 
 <details><summary><b>O antivírus diz que é perigoso. É?</b></summary>
 
@@ -92,7 +94,7 @@ Confirma que o NEXUS corre como administrador e que o modo de sensores é o "Com
 
 <details><summary><b>Como desinstalo?</b></summary>
 
-Em **Definições → Aplicações** ou com `DESINSTALAR NEXUS.bat` na pasta do NEXUS. Se quiseres o Windows como estava, carrega antes em **REPOR** na Performance.
+No próprio NEXUS: **Opções → Geral → Desinstalar** (ou no menu do ícone junto ao relógio). Também em **Definições do Windows → Aplicações** ou com `UNINSTALL NEXUS.bat` na pasta do NEXUS. Se quiseres o Windows como estava, carrega antes em **REPOR** na Performance.
 </details>
 
 ## Licença

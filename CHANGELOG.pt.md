@@ -2,6 +2,14 @@
 
 Todas as versões estão em [`versoes/`](versoes). O NEXUS mostra estas notas na janela NOVIDADES.
 
+## v2.3.1
+[⬇ zip completo](versoes/v2.3.1/NEXUS-Monitor-v2.3.1.zip?raw=1) · [atualização](versoes/v2.3.1/NEXUS-Monitor-v2.3.1-update.zip?raw=1)
+
+- Desinstalar a partir do NEXUS: em OPÇÕES → GERAL → DESINSTALAR e no menu do ícone junto ao relógio. Abre o desinstalador, que mostra o que sai e pergunta antes de apagar.
+- Os ficheiros do NEXUS passam a ter nomes em inglês: INSTALL NEXUS.bat, UPDATE NEXUS.bat, UNINSTALL NEXUS.bat e INSTALL STREAM DECK ADDON.bat. O texto em português fica em README.pt.txt e CHANGELOG.pt.txt.
+- O instalador, o atualizador e o desinstalador falam a língua do Windows (português, inglês, espanhol, francês ou alemão), incluindo as teclas das perguntas.
+- Corrigido: a atualização não refazia o plugin da Stream Deck quando não encontrava a app (as teclas novas de música não apareciam). Agora refaz sempre que o plugin está instalado.
+
 ## v2.3
 [⬇ zip completo](versoes/v2.3/NEXUS-Monitor-v2.3.zip?raw=1) · [atualização](versoes/v2.3/NEXUS-Monitor-v2.3-update.zip?raw=1)
 

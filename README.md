@@ -10,7 +10,7 @@
 ![Languages](docs/img/badges/langs.svg)
 ![License](docs/img/badges/license.svg)
 
-[**⬇ Download v2.3**](versoes/v2.3/NEXUS-Monitor-v2.3.zip?raw=1) · [Small update](versoes/v2.3/NEXUS-Monitor-v2.3-update.zip?raw=1) · [Changelog](CHANGELOG.md) · [Privacy](PRIVACY.md) · [Português](README.pt.md)
+[**⬇ Download v2.3.1**](versoes/v2.3.1/NEXUS-Monitor-v2.3.1.zip?raw=1) · [Small update](versoes/v2.3.1/NEXUS-Monitor-v2.3.1-update.zip?raw=1) · [Changelog](CHANGELOG.md) · [FAQ](FAQ.md) · [Privacy](PRIVACY.md) · [Português](README.pt.md)
 
 <img src="docs/img/painel.png" alt="NEXUS Monitor main dashboard" width="900">
 
@@ -53,10 +53,10 @@ It's made for gamers but explained for people who don't know much about PCs: eve
 
 ## Install
 
-1. Download **[NEXUS Monitor v2.3.zip](versoes/v2.3/NEXUS-Monitor-v2.3.zip?raw=1)**.
+1. Download **[NEXUS Monitor v2.3.1.zip](versoes/v2.3.1/NEXUS-Monitor-v2.3.1.zip?raw=1)**.
 2. Right-click the zip → **Extract All…** (don't run anything from inside the zip).
-3. Open the folder and double-click **`INSTALAR NEXUS.bat`**.
-4. Pick the folder (or keep the suggested one), the optional extras and accept the administrator prompt.
+3. Open the folder and double-click **`INSTALL NEXUS.bat`**.
+4. Pick the folder (or keep the suggested one), the optional extras and accept the administrator prompt. The installer speaks your Windows language.
 
 The installer compiles NEXUS on your own PC (with the .NET compiler that ships with Windows) and downloads LibreHardwareMonitor to read the sensors. Optional extras: PresentMon (FPS), gdu (Deep Scan) and the Stream Deck plugin.
 
@@ -65,7 +65,7 @@ The installer compiles NEXUS on your own PC (with the .NET compiler that ships w
 ## Update
 
 - **From NEXUS itself:** it checks for new versions when it opens and every hour and shows what changes. Press **INSTALL** and it does the rest (it verifies the download's SHA-256 first).
-- **By hand:** if you have one of the two previous versions, download the **[small update](versoes/v2.3/NEXUS-Monitor-v2.3-update.zip?raw=1)**, extract it and run `ATUALIZAR NEXUS.bat`. Otherwise use the full zip.
+- **By hand:** if you have one of the two previous versions, download the **[small update](versoes/v2.3.1/NEXUS-Monitor-v2.3.1-update.zip?raw=1)**, extract it and run `UPDATE NEXUS.bat`. Otherwise use the full zip.
 
 Update checks can be turned off in **Options → General**. Every version is in [`versoes/`](versoes).
 
@@ -74,6 +74,8 @@ Update checks can be turned off in **Options → General**. Every version is in 
 Nothing leaves your PC: no accounts, ads, telemetry or NEXUS servers. The only internet connections are the ones you ask for (speed test, ntfy notifications) and the update check against this repository, which can be turned off. Details in **[PRIVACY.md](PRIVACY.md)**.
 
 ## FAQ
+
+Full questions and answers: **[FAQ.md](FAQ.md)**. The most common ones:
 
 <details><summary><b>My antivirus says it's dangerous. Is it?</b></summary>
 
@@ -92,7 +94,7 @@ Make sure NEXUS runs as administrator and the sensor mode is "Complete" (Options
 
 <details><summary><b>How do I uninstall?</b></summary>
 
-From **Settings → Apps** or with `DESINSTALAR NEXUS.bat` in the NEXUS folder. If you want Windows exactly as before, press **RESTORE** on the Performance page first.
+In NEXUS: **Options → General → Uninstall** (or the menu of the icon next to the clock). Also in **Windows Settings → Apps** or with `UNINSTALL NEXUS.bat` in the NEXUS folder. If you want Windows exactly as before, press **RESTORE** on the Performance page first.
 </details>
 
 ## License
