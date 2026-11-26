@@ -4,13 +4,13 @@
 
 **Monitor do PC, otimizações para jogos e controlo pelo telemóvel — tudo a correr só no teu PC.**
 
-![Versão](https://img.shields.io/badge/vers%C3%A3o-2.2.2-8fd8ff?style=for-the-badge)
+![Versão](https://img.shields.io/badge/vers%C3%A3o-2.3-8fd8ff?style=for-the-badge)
 ![Windows](https://img.shields.io/badge/Windows-10%20%7C%2011-c4b5ff?style=for-the-badge&logo=windows11&logoColor=white)
 ![Privacidade](https://img.shields.io/badge/dados-ficam%20no%20PC-7dffcf?style=for-the-badge)
 ![Línguas](https://img.shields.io/badge/PT%20%C2%B7%20EN%20%C2%B7%20ES%20%C2%B7%20FR%20%C2%B7%20DE-ffd27a?style=for-the-badge)
 ![Licença](https://img.shields.io/badge/licen%C3%A7a-MIT-ff6b8a?style=for-the-badge)
 
-[**⬇ Transferir v2.2.2**](versoes/v2.2.2/NEXUS-Monitor-v2.2.2.zip?raw=1) · [Atualização pequena](versoes/v2.2.2/NEXUS-Monitor-v2.2.2-update.zip?raw=1) · [Novidades](CHANGELOG.md) · [Privacidade](PRIVACIDADE.md) · [English](README.en.md)
+[**⬇ Transferir v2.3**](versoes/v2.3/NEXUS-Monitor-v2.3.zip?raw=1) · [Atualização pequena](versoes/v2.3/NEXUS-Monitor-v2.3-update.zip?raw=1) · [Novidades](CHANGELOG.md) · [Privacidade](PRIVACIDADE.md) · [English](README.en.md)
 
 <img src="docs/img/painel.png" alt="Painel principal do NEXUS Monitor" width="900">
 
@@ -53,7 +53,7 @@ O NEXUS Monitor é uma app para Windows que mostra, em tempo real e numa página
 
 ## Instalar
 
-1. Transfere **[NEXUS Monitor v2.2.2.zip](versoes/v2.2.2/NEXUS-Monitor-v2.2.2.zip?raw=1)**.
+1. Transfere **[NEXUS Monitor v2.3.zip](versoes/v2.3/NEXUS-Monitor-v2.3.zip?raw=1)**.
 2. Botão direito no zip → **Extrair tudo…** (não corras nada de dentro do zip).
 3. Abre a pasta e faz duplo clique em **`INSTALAR NEXUS.bat`**.
 4. Escolhe a pasta (ou deixa a sugerida), os extras opcionais e aceita o pedido de administrador.
@@ -65,7 +65,7 @@ O instalador compila o NEXUS no próprio PC (com o compilador do .NET que já ve
 ## Atualizar
 
 - **Pelo próprio NEXUS:** ele procura versões novas ao abrir e de hora a hora e mostra o que muda. Carregas em **INSTALAR** e trata de tudo (confirma o SHA-256 do download antes de instalar).
-- **À mão:** se tens uma das duas versões anteriores, transfere a **[atualização pequena](versoes/v2.2.2/NEXUS-Monitor-v2.2.2-update.zip?raw=1)**, extrai e corre `ATUALIZAR NEXUS.bat`. Se não, usa o zip completo.
+- **À mão:** se tens uma das duas versões anteriores, transfere a **[atualização pequena](versoes/v2.3/NEXUS-Monitor-v2.3-update.zip?raw=1)**, extrai e corre `ATUALIZAR NEXUS.bat`. Se não, usa o zip completo.
 
 A verificação de atualizações pode ser desligada em **Opções → Geral**. Todas as versões estão em [`versoes/`](versoes).
 

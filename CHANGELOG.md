@@ -2,6 +2,29 @@
 
 Todas as versões estão em [`versoes/`](versoes). O NEXUS mostra estas notas na janela NOVIDADES.
 
+## v2.3
+[⬇ zip completo](versoes/v2.3/NEXUS-Monitor-v2.3.zip?raw=1) · [atualização](versoes/v2.3/NEXUS-Monitor-v2.3-update.zip?raw=1)
+
+- DEEP SCAN organizado em separadores: 🔍 Analisar (o mapa e as pastas), 🧹 Limpar, ❤ Saúde e 📦 Programas. Tudo o que é discos está lá: vida dos SSD (TB escritos e ritmo por dia), otimizar discos (TRIM/desfragmentar), espaço escondido, poupar o SSD, espaço da Steam e programas esquecidos.
+- PERFORMANCE reorganizada: Hardware só com as peças, Sistema com o Windows e os drivers, e um separador novo 🩺 PROBLEMAS com tudo o que serve quando algo corre mal (primeiros socorros, crashes, testes, reparar, arranque lento, PC que não dorme, zip de suporte).
+- NVIDIA App: um botão desliga a app, o overlay, o arranque, o serviço e as tarefas dela (o driver e o Painel de Controlo ficam). "Manter desligada" volta a desligar sempre que o NEXUS abre.
+- Jogos: engasgos (soluços) contados por sessão com os minutos piores, tempo de carregamento por disco, fechar programas ao jogar e reabrir no fim, overlays ativos e abrir jogos pelo telemóvel.
+- Hardware: fonte de alimentação (chega ou não, com aviso de pico), o que limita o boost, simulador de upgrade, inventário com números de série e garantias, baterias dos periféricos e drivers gráficos antigos.
+- Otimizar: menu do botão direito (esconder entradas e menu clássico do Windows 11), tarefas agendadas escondidas e mais serviços dispensáveis.
+- Rede: prioridade de rede para o jogo, teste de lag com a rede cheia (bufferbloat), quem está a usar a internet, Wi-Fi (sinal e canal) e partilhar: link só de leitura e copiar as definições de outro PC da casa.
+- Sistema: segurança do Windows, versão do Windows e até quando tem suporte, últimas atualizações (desinstalar uma), apps padrão (aviso se mudarem) e avisos novos.
+- Início: o meu PC (imagem para partilhar) e antes/depois de mudar peças.
+- Avisos novos: ventoinha parada, PC quente parado, fonte no limite, bateria fraca e apps padrão mudadas.
+- Stream Deck: teclas de música (com a capa do que está a tocar), seguinte, anterior e volume.
+- Painel numa janela: ecrã inteiro no 2.º monitor ou pequeno por cima do jogo (Alt+Shift+N). Cores a partir do papel de parede.
+- Mais ferramentas: tempo de ecrã, atraso do clique, pasta térmica da placa (núcleo vs hotspot), teste da RAM, espaço da Steam, o que não deixa o PC dormir, primeiros socorros e zip de suporte anónimo.
+- Gráfico de cada sessão de jogo, FPS por euro no simulador de upgrade, aviso de driver gráfico antigo, desinstalar drivers antigos (Sistema) e programas esquecidos (Deep Scan → Programas).
+- Processos: clica no nome para saberes o que é e se é seguro fechar. No topo do painel, o estado do PC numa frase.
+- Deep Scan: o aviso dos discos agora diz o motivo e o que fazer. Otimizar: cada categoria mostra o ganho estimado. Painel numa janela com Edge, Chrome, Brave ou Vivaldi.
+- Botão 🧒 SIMPLES na Performance: explicações muito simples em cada cartão.
+- Corrigido: o plugin da Stream Deck já não fecha por causa de uma tradução repetida, e o instalador apaga o plugin antigo antes de compilar.
+- Corrigido no instalador: a janela para escolher a pasta já não abre escondida atrás da consola (e se não abrir, passa a pedir o caminho escrito); a pasta escolhida já não se perde quando o administrador é outra conta do Windows.
+
 ## v2.2.2
 [⬇ zip completo](versoes/v2.2.2/NEXUS-Monitor-v2.2.2.zip?raw=1) · [atualização](versoes/v2.2.2/NEXUS-Monitor-v2.2.2-update.zip?raw=1)
 

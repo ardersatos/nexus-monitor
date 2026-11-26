@@ -2,6 +2,29 @@
 
 Every version is in [`versoes/`](versoes). NEXUS shows these notes in the WHAT'S NEW window.
 
+## v2.3
+[⬇ full zip](versoes/v2.3/NEXUS-Monitor-v2.3.zip?raw=1) · [update](versoes/v2.3/NEXUS-Monitor-v2.3-update.zip?raw=1)
+
+- DEEP SCAN organised in tabs: 🔍 Analyse (the map and folders), 🧹 Clean, ❤ Health and 📦 Programs. Everything about drives is there: SSD life (TB written and daily rate), optimise drives (TRIM/defrag), hidden space, save the SSD, Steam space and forgotten programs.
+- PERFORMANCE reorganised: Hardware only has the parts, System has Windows and drivers, and a new 🩺 PROBLEMS tab gathers everything for when something goes wrong (first aid, crashes, tests, repair, slow boot, PC that won't sleep, support zip).
+- NVIDIA App: one button turns off the app, overlay, startup, service and its tasks (driver and Control Panel stay). "Keep it off" turns it off again every time NEXUS opens.
+- Games: stutters counted per session with the worst minutes, loading time per drive, close programs while gaming and reopen them after, active overlays and launch games from your phone.
+- Hardware: power supply (enough or not, with peak alert), what limits boost, upgrade simulator, inventory with serial numbers and warranties, peripheral batteries and old graphics drivers.
+- Optimise: right-click menu (hide entries and Windows 11 classic menu), hidden scheduled tasks and more unneeded services.
+- Network: network priority for the game, lag test with a full network (bufferbloat), who is using the internet, Wi-Fi (signal and channel) and sharing: read-only link and copy settings from another PC at home.
+- System: Windows security, Windows version and how long it's supported, latest updates (uninstall one), default apps (alert if they change) and new alerts.
+- Home: my PC (shareable image) and before/after changing parts.
+- New alerts: fan stopped, hot PC while idle, PSU at its limit, low battery and default apps changed.
+- Stream Deck: music keys (with the cover of what's playing), next, previous and volume.
+- Dashboard in a window: full screen on the 2nd monitor or small on top of the game (Alt+Shift+N). Colours from your wallpaper.
+- More tools: screen time, click latency, GPU thermal paste (core vs hotspot), RAM test, Steam space, what keeps the PC awake, first aid and an anonymous support zip.
+- A graph of each game session, FPS per euro in the upgrade simulator, old graphics driver warning, uninstall old drivers (System) and forgotten programs (Deep Scan → Programs).
+- Processes: click the name to see what it is and whether it is safe to close. At the top of the dashboard, the PC status in one sentence.
+- Deep Scan: drive warnings now say why and what to do. Optimise: each category shows the estimated gain. Dashboard in a window with Edge, Chrome, Brave or Vivaldi.
+- 🧒 SIMPLE button in Performance: very simple explanations on every card.
+- Fixed: the Stream Deck plugin no longer closes because of a duplicated translation, and the installer deletes the old plugin before compiling.
+- Fixed in the installer: the folder picker no longer opens hidden behind the console (and if it does not open, it asks for a typed path); the chosen folder is no longer lost when the administrator is another Windows account.
+
 ## v2.2.2
 [⬇ full zip](versoes/v2.2.2/NEXUS-Monitor-v2.2.2.zip?raw=1) · [update](versoes/v2.2.2/NEXUS-Monitor-v2.2.2-update.zip?raw=1)
 
