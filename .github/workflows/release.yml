@@ -1,0 +1,45 @@
+# Publica cada versão nova do NEXUS em "Releases" (com os zips e as notas em PT e EN).
+# Corre quando o versao.json muda no main; se a release dessa versão já existir, não faz nada.
+name: Release
+
+on:
+  push:
+    branches: [main]
+    paths: [versao.json, .github/workflows/release.yml]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Criar a release da versão em versao.json
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -e
+          VER=$(jq -r .ver versao.json)
+          TAG="v$VER"
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            echo "A release $TAG já existe."; exit 0
+          fi
+          FULL=$(jq -r .full versao.json | sed 's/?raw=1//')
+          UPD=$(jq -r .update versao.json | sed 's/?raw=1//')
+          {
+            echo "## What's new"
+            jq -r '.notes_en[] | "- " + .' versao.json
+            echo
+            echo "## Novidades"
+            jq -r '.notes_pt[] | "- " + .' versao.json
+            echo
+            echo "---"
+            echo "**Install:** download \`$(basename "$FULL")\`, extract it and run the install .bat inside."
+            echo "**Update:** NEXUS updates itself, or extract \`$(basename "$UPD")\` and run the update .bat inside (works up to 2 versions back)."
+            echo
+            echo "SHA-256 full: \`$(jq -r .full_sha256 versao.json)\`"
+            echo "SHA-256 update: \`$(jq -r .update_sha256 versao.json)\`"
+          } > notes.md
+          gh release create "$TAG" "$FULL" "$UPD" --title "NEXUS Monitor $TAG" --notes-file notes.md --latest
