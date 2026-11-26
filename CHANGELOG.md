@@ -2,6 +2,31 @@
 
 Every version is in [`versoes/`](versoes). NEXUS shows these notes in the WHAT'S NEW window.
 
+## v2.5
+[⬇ full zip](versoes/v2.5/NEXUS-Monitor-v2.5.zip?raw=1) · [update](versoes/v2.5/NEXUS-Monitor-v2.5-update.zip?raw=1)
+
+- NEW CONTROLS TAB (Performance): Razer and Logitech mice, keyboards and headsets without Synapse or G HUB. DPI, DPI stages, polling rate (up to 8000 Hz), battery, sleep time, MX wheel, F keys and "hear my voice". Only what your device has is shown, with a drawing that looks like it.
+- DPI and polling rate per game: they change by themselves when the game opens and go back when it closes.
+- Macros: record keys and clicks and replay them once, several times, while held or on/off.
+- Your own shortcuts, also with mouse side buttons and only in one game or only on one keyboard/mouse: macro, rapid click (turbo), next/previous DPI, precision DPI, microphone, music, small panel, measure FPS, open a program, type a text.
+- In anti-cheat games, macros and turbo stay off (they could get you banned) unless you allow them.
+- Headset and microphone of any brand: choose the device, volume and mute.
+- Equalizer for all PC sound, set up by NEXUS in one click (no windows, extra programs or restart): simple 10-band or advanced mode with filters, drawn curve, presets and, for over 60 known headsets, a sound correction made for them (AutoEq).
+- Tests: real mouse rate, double click (failing buttons) and keys (on-screen keyboard).
+- Low battery warning for mouse, keyboard and headset.
+- HyperX Cloud III Wireless headset battery (found by NEXUS, no NGENUITY needed).
+- Game mode and Snap Tap: hides the Windows key, Alt+Tab and Alt+F4 while you play (and turns on Razer keyboards' game mode); Snap Tap on any keyboard (turns itself off in CS2).
+- Razer Viper Ultimate battery (the receiver only answered the long request).
+- Battery of SteelSeries (Arctis and Nova), Corsair (Void, HS) and HyperX (Cloud Alpha, Cloud II, Cloud Flight) headsets. Discover mode: teach NEXUS a device it does not know.
+- Wallpaper colours fixed: uses the image's real colours and no longer reverts to the previous theme on reload.
+- Sleeping wireless mouse: NEXUS shows "asleep" and keeps the last values instead of an error.
+- Stream Deck: new Battery key; PC stat shows every sensor again.
+- Stream Deck: device battery, DPI (press to change stage), microphone and one key per macro.
+- PC status warnings (e.g. a disk that may fail) can be ignored: disk ones until they change, others for 1 hour.
+- Keys and buttons: click a key on the drawn keyboard (or a mouse button) to swap it, turn it off, add turbo, a macro, DPI, music…
+- History: the chart shows the whole chosen period and the scale adapts to the values (lines are no longer flattened).
+- Fixed: Alt+Shift+N and Alt+Shift+M also toggled the overlay.
+
 ## v2.4.3
 [⬇ full zip](versoes/v2.4.3/NEXUS-Monitor-v2.4.3.zip?raw=1) · [update](versoes/v2.4.3/NEXUS-Monitor-v2.4.3-update.zip?raw=1)
 

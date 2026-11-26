@@ -106,6 +106,18 @@ Jogos → Medir FPS: faz uma medição chamada "antes", muda o que quiseres e fa
 **Posso abrir jogos pelo telemóvel?**
 Sim, com o Controlo do PC ligado: Jogos → Abrir jogos pelo telemóvel (jogos da Steam e jogos que já jogaste).
 
+**O NEXUS substitui o Razer Synapse ou o Logitech G HUB?**
+Em grande parte, sim (exceto as luzes RGB): em Performance → Controlos mudas o DPI, os níveis de DPI, a taxa de envio, vês a bateria, o tempo até adormecer, a roda dos MX e mais. Só aparece o que o teu aparelho suporta. Se o Synapse ou o G HUB estiverem abertos, podem desfazer o que mudares.
+
+**Como funciona o equalizador?**
+Carrega em ATIVAR O EQUALIZADOR (Performance → Controlos). O NEXUS descarrega o motor do Equalizer APO (gratuito, código aberto, GPL), verifica-o por SHA-256, instala-o em silêncio e liga-o ele próprio aos teus aparelhos de som: sem janelas, atalhos no menu Iniciar, entrada na lista de programas nem verificador de atualizações. O Windows pede permissão uma vez e não é preciso reiniciar. "Remover o equalizador do PC" deixa o som do Windows exatamente como estava. Depois, em Performance → Controlos escolhes um ajuste pronto, mexes em 10 bandas ou, no modo avançado, em filtros. Para mais de 60 auscultadores conhecidos aparece uma correção do som feita para eles, com base no projeto AutoEq (licença MIT).
+
+**As macros podem dar ban?**
+Nos jogos com anti-cheat (Valorant, Fortnite, Apex, CoD…) o NEXUS desliga as macros e o turbo. Podes autorizar uma macro por tua conta, mas o risco é teu.
+
+**O NEXUS vê o que escrevo?**
+Só quando ligas as macros e atalhos, e só para reconhecer as teclas dos teus atalhos. Nada é guardado (exceto as macros que gravares) e nada sai do PC.
+
 **O que é a rota para jogos? Parece o ExitLag.**
 É parecida e é grátis: em Performance → Rede, o NEXUS pode passar o tráfego de um jogo pela rede da Cloudflare (Cloudflare WARP) quando isso baixa o ping. Está desligada até a ligares, pede autorização antes, e só o tráfego do jogo passa por lá.
 

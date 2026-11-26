@@ -2,6 +2,31 @@
 
 Todas as versões estão em [`versoes/`](versoes). O NEXUS mostra estas notas na janela NOVIDADES.
 
+## v2.5
+[⬇ zip completo](versoes/v2.5/NEXUS-Monitor-v2.5.zip?raw=1) · [atualização](versoes/v2.5/NEXUS-Monitor-v2.5-update.zip?raw=1)
+
+- NOVO SEPARADOR CONTROLOS (Performance): ratos, teclados e auscultadores Razer e Logitech sem o Synapse nem o G HUB. DPI, níveis de DPI, taxa de envio (até 8000 Hz), bateria, tempo até adormecer, roda dos MX, teclas F e "ouvir a minha voz". Só aparece o que o teu aparelho tem, com um desenho parecido com ele.
+- DPI e taxa de envio por jogo: mudam sozinhos quando o jogo abre e voltam quando fecha.
+- Macros: grava teclas e cliques e repete-os uma vez, várias vezes, enquanto seguras ou liga/desliga.
+- Atalhos à tua escolha, também com os botões laterais do rato e só num jogo ou só num teclado/rato: macro, clique rápido (turbo), DPI seguinte/anterior, DPI de precisão, microfone, música, painel pequeno, medir FPS, abrir um programa, escrever um texto.
+- Nos jogos com anti-cheat as macros e o turbo ficam desligados (podiam dar ban), a não ser que autorizes.
+- Auscultadores e microfone de qualquer marca: escolher o aparelho, volume e silenciar.
+- Equalizador para todo o som do PC, preparado pelo NEXUS num clique (sem janelas, programas extra nem reiniciar): modo simples de 10 bandas ou avançado com filtros, curva desenhada, ajustes prontos e, para mais de 60 auscultadores conhecidos, correção do som feita para eles (AutoEq).
+- Testes: taxa real do rato, duplo clique (botões a estragar-se) e teclas (teclado no ecrã).
+- Aviso de bateria fraca do rato, teclado e auscultadores.
+- Bateria dos auscultadores HyperX Cloud III Wireless (descoberta pelo NEXUS, sem precisar do NGENUITY).
+- Modo jogo e Snap Tap: esconde a tecla Windows, Alt+Tab e Alt+F4 enquanto jogas (e liga o modo jogo dos teclados Razer); Snap Tap em qualquer teclado (desliga-se sozinho no CS2).
+- Bateria do Razer Viper Ultimate (o recetor só respondia ao pedido longo).
+- Bateria de auscultadores SteelSeries (Arctis e Nova), Corsair (Void, HS) e HyperX (Cloud Alpha, Cloud II, Cloud Flight). Modo descobrir: ensina ao NEXUS um aparelho que ele não conhece.
+- Cores do papel de parede corrigidas: usa as cores reais da imagem e já não voltam ao tema anterior ao recarregar.
+- Rato sem fios a dormir: o NEXUS mostra "a dormir" e guarda os últimos valores em vez de dar erro.
+- Stream Deck: nova tecla de Bateria; a Estatística do PC volta a mostrar todos os sensores.
+- Stream Deck: bateria dos aparelhos, DPI (carregar troca de nível), microfone e uma tecla para cada macro.
+- Os avisos do estado do PC (ex.: disco que pode falhar) podem ser ignorados: os dos discos até mudarem, os outros durante 1 hora.
+- Teclas e botões: clica numa tecla do teclado desenhado (ou num botão do rato) para a trocar por outra, desligar, pôr turbo, uma macro, DPI, música…
+- Histórico: o gráfico mostra o período escolhido inteiro e a escala ajusta-se aos valores (as linhas já não ficam espalmadas).
+- Corrigido: Alt+Shift+N e Alt+Shift+M também ligavam/desligavam o overlay.
+
 ## v2.4.3
 [⬇ zip completo](versoes/v2.4.3/NEXUS-Monitor-v2.4.3.zip?raw=1) · [atualização](versoes/v2.4.3/NEXUS-Monitor-v2.4.3-update.zip?raw=1)
 

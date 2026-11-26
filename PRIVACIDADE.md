@@ -12,6 +12,8 @@ O painel corre num pequeno servidor local (`localhost:8765`). Só fica visível 
 - o controlo pelo telemóvel tem de ser aceite no PC, uma vez para cada telemóvel;
 - o link só de leitura não deixa mudar nada.
 
+**Controlos (2.5):** se ligares as macros e atalhos, o NEXUS vê as teclas e cliques só para reconhecer os teus atalhos e para gravar uma macro quando carregas em GRAVAR. Nada é registado nem enviado: só ficam guardadas as macros que gravares (`macros.txt`) e os atalhos (`atalhos.txt`). Os aparelhos Razer e Logitech são controlados diretamente pelo USB/recetor, sem internet. O motor do equalizador só é descarregado quando carregas em ATIVAR O EQUALIZADOR (um download do SourceForge, verificado por SHA-256); o verificador de atualizações dele é removido, por isso mais nada sai do PC.
+
 ## Ligações à internet
 
 | Quando | Para onde | Porquê |

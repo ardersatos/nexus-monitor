@@ -12,6 +12,8 @@ The dashboard runs on a small local server (`localhost:8765`). It is only visibl
 - phone control must be accepted on the PC, once per phone;
 - the read-only link can't change anything.
 
+**Controls (2.5):** if you turn on macros and shortcuts, NEXUS sees keys and clicks only to recognise your shortcuts and to record a macro when you press RECORD. Nothing is logged or sent: only the macros you record (`macros.txt`) and your shortcuts (`atalhos.txt`) are saved. Razer and Logitech devices are controlled directly over USB/receiver, with no internet. The equalizer engine is downloaded only when you click TURN ON THE EQUALIZER (one download from SourceForge, checked by SHA-256); its own update checker is removed, so nothing else goes out.
+
 ## Internet connections
 
 | When | Where | Why |

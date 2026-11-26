@@ -106,6 +106,18 @@ Games → Measure FPS: take a measurement named "before", change something, then
 **Can I launch games from my phone?**
 Yes, with PC control turned on: Games → Launch games from the phone (Steam games and games you've already played).
 
+**Does NEXUS replace Razer Synapse or Logitech G HUB?**
+Mostly, yes (except RGB lighting): in Performance → Controls you change DPI, DPI stages and polling rate, and see battery, sleep time, the MX wheel and more. Only what your device supports is shown. If Synapse or G HUB are open, they may undo your changes.
+
+**How does the equalizer work?**
+Click TURN ON THE EQUALIZER (Performance → Controls). NEXUS downloads the engine of Equalizer APO (free, open source, GPL), checks it by SHA-256, installs it silently and connects it to your sound devices itself: no windows, Start menu shortcuts, programs list entry or update checker. Windows asks permission once and there is no restart. "Remove the equalizer from the PC" puts Windows sound back exactly as it was. Then, in Performance → Controls, you pick a preset, move 10 bands or, in advanced mode, edit filters. For over 60 known headsets there is a sound correction made for them, based on the AutoEq project (MIT licence).
+
+**Can macros get me banned?**
+In anti-cheat games (Valorant, Fortnite, Apex, CoD…) NEXUS turns macros and turbo off. You can allow a macro at your own risk.
+
+**Does NEXUS see what I type?**
+Only when you turn on macros and shortcuts, and only to recognise your shortcut keys. Nothing is stored (except macros you record) and nothing leaves the PC.
+
 **What is the game route? It sounds like ExitLag.**
 It's similar and free: in Performance → Network, NEXUS can send a game's traffic through Cloudflare's network (Cloudflare WARP) when that lowers your ping. It's off until you turn it on, asks for permission first, and only the game's traffic goes through it.
 
