@@ -2,6 +2,12 @@
 
 Todas as versões estão em [`versoes/`](versoes). O NEXUS mostra estas notas na janela NOVIDADES.
 
+## v2.5.2
+[⬇ zip completo](versoes/v2.5.2/NEXUS-Monitor-v2.5.2.zip?raw=1) · [atualização](versoes/v2.5.2/NEXUS-Monitor-v2.5.2-update.zip?raw=1)
+
+- Atualizações automáticas: usa sempre o pacote completo (funciona venha de que versão vier), pode instalar sozinho (nunca durante um jogo) e apaga o que descarregou. Botão para a página no GitHub.
+- Avisos ignorados: deixam de contar quando o problema passa (ex.: a RAM volta ao normal) e o indicador ficou discreto.
+
 ## v2.5.1
 [⬇ zip completo](versoes/v2.5.1/NEXUS-Monitor-v2.5.1.zip?raw=1) · [atualização](versoes/v2.5.1/NEXUS-Monitor-v2.5.1-update.zip?raw=1)
 

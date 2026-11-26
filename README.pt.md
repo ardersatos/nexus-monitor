@@ -10,7 +10,7 @@
 ![Línguas](docs/img/badges/langs.svg)
 ![Licença](docs/img/badges/licenca.svg)
 
-[**⬇ Transferir v2.5.1**](versoes/v2.5.1/NEXUS-Monitor-v2.5.1.zip?raw=1) · [Atualização pequena](versoes/v2.5.1/NEXUS-Monitor-v2.5.1-update.zip?raw=1) · [Novidades](CHANGELOG.pt.md) · [Perguntas](FAQ.pt.md) · [Privacidade](PRIVACIDADE.md) · [English](README.md)
+[**⬇ Transferir v2.5.2**](versoes/v2.5.2/NEXUS-Monitor-v2.5.2.zip?raw=1) · [Atualização pequena](versoes/v2.5.2/NEXUS-Monitor-v2.5.2-update.zip?raw=1) · [Novidades](CHANGELOG.pt.md) · [Perguntas](FAQ.pt.md) · [Privacidade](PRIVACIDADE.md) · [English](README.md)
 
 <img src="docs/img/painel.png" alt="Painel principal do NEXUS Monitor" width="900">
 
@@ -53,7 +53,7 @@ O NEXUS Monitor é uma app para Windows que mostra, em tempo real e numa página
 
 ## Instalar
 
-1. Transfere **[NEXUS Monitor v2.5.1.zip](versoes/v2.5.1/NEXUS-Monitor-v2.5.1.zip?raw=1)**.
+1. Transfere **[NEXUS Monitor v2.5.2.zip](versoes/v2.5.2/NEXUS-Monitor-v2.5.2.zip?raw=1)**.
 2. Botão direito no zip → **Extrair tudo…** (não corras nada de dentro do zip).
 3. Abre a pasta e faz duplo clique em **`INSTALL NEXUS.bat`**.
 4. Escolhe a pasta (ou deixa a sugerida), os extras opcionais e aceita o pedido de administrador. O instalador fala a língua do Windows.
@@ -65,7 +65,7 @@ O instalador compila o NEXUS no próprio PC (com o compilador do .NET que já ve
 ## Atualizar
 
 - **Pelo próprio NEXUS:** ele procura versões novas ao abrir e de hora a hora e mostra o que muda. Carregas em **INSTALAR** e trata de tudo (confirma o SHA-256 do download antes de instalar).
-- **À mão:** se tens uma das duas versões anteriores, transfere a **[atualização pequena](versoes/v2.5.1/NEXUS-Monitor-v2.5.1-update.zip?raw=1)**, extrai e corre `UPDATE NEXUS.bat`. Se não, usa o zip completo.
+- **À mão:** se tens uma das duas versões anteriores, transfere a **[atualização pequena](versoes/v2.5.2/NEXUS-Monitor-v2.5.2-update.zip?raw=1)**, extrai e corre `UPDATE NEXUS.bat`. Se não, usa o zip completo.
 
 A verificação de atualizações pode ser desligada em **Opções → Geral**. Todas as versões estão em [`versoes/`](versoes).
 

@@ -2,6 +2,12 @@
 
 Every version is in [`versoes/`](versoes). NEXUS shows these notes in the WHAT'S NEW window.
 
+## v2.5.2
+[⬇ full zip](versoes/v2.5.2/NEXUS-Monitor-v2.5.2.zip?raw=1) · [update](versoes/v2.5.2/NEXUS-Monitor-v2.5.2-update.zip?raw=1)
+
+- Automatic updates: always use the full package (works from any version), can install by itself (never during a game) and deletes what it downloaded. Button to the GitHub page.
+- Ignored warnings: they stop counting once the problem goes away (e.g. RAM back to normal) and the indicator is now discreet.
+
 ## v2.5.1
 [⬇ full zip](versoes/v2.5.1/NEXUS-Monitor-v2.5.1.zip?raw=1) · [update](versoes/v2.5.1/NEXUS-Monitor-v2.5.1-update.zip?raw=1)
 
