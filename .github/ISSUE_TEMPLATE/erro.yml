@@ -1,0 +1,40 @@
+name: 🐞 Erro / Bug
+description: Algo não funciona como devia / Something doesn't work
+labels: ["erro"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Obrigado por ajudares! Não ponhas aqui dados pessoais (IPs, nomes de utilizador, códigos).
+        Thanks for helping! Please don't include personal data (IPs, user names, codes).
+  - type: input
+    id: versao
+    attributes:
+      label: Versão do NEXUS / NEXUS version
+      description: Está no fundo do painel principal / Shown at the bottom of the dashboard
+      placeholder: "2.3"
+    validations:
+      required: true
+  - type: dropdown
+    id: windows
+    attributes:
+      label: Windows
+      options: ["Windows 11", "Windows 10", "Outro / Other"]
+    validations:
+      required: true
+  - type: textarea
+    id: oque
+    attributes:
+      label: O que aconteceu? / What happened?
+      description: O que fizeste, o que esperavas e o que aconteceu / What you did, expected and got
+    validations:
+      required: true
+  - type: textarea
+    id: hardware
+    attributes:
+      label: Hardware (opcional / optional)
+      description: Processador, placa gráfica, placa-mãe / CPU, GPU, motherboard
+  - type: textarea
+    id: erro
+    attributes:
+      label: Mensagem de erro ou imagem / Error message or screenshot
