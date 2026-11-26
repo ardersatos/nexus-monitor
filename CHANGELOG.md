@@ -2,6 +2,12 @@
 
 Every version is in [`versoes/`](versoes). NEXUS shows these notes in the WHAT'S NEW window.
 
+## v2.4.2
+[⬇ full zip](versoes/v2.4.2/NEXUS-Monitor-v2.4.2.zip?raw=1) · [update](versoes/v2.4.2/NEXUS-Monitor-v2.4.2-update.zip?raw=1)
+
+- Fixed: the small panel looked squashed (narrow cards with no values).
+- The 2nd monitor panel and the small panel close with Esc or the ✕ in the corner.
+
 ## v2.4.1
 [⬇ full zip](versoes/v2.4.1/NEXUS-Monitor-v2.4.1.zip?raw=1) · [update](versoes/v2.4.1/NEXUS-Monitor-v2.4.1-update.zip?raw=1)
 

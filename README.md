@@ -10,7 +10,7 @@
 ![Languages](docs/img/badges/langs.svg)
 ![License](docs/img/badges/license.svg)
 
-[**⬇ Download v2.4.1**](versoes/v2.4.1/NEXUS-Monitor-v2.4.1.zip?raw=1) · [Small update](versoes/v2.4.1/NEXUS-Monitor-v2.4.1-update.zip?raw=1) · [Changelog](CHANGELOG.md) · [FAQ](FAQ.md) · [Privacy](PRIVACY.md) · [Português](README.pt.md)
+[**⬇ Download v2.4.2**](versoes/v2.4.2/NEXUS-Monitor-v2.4.2.zip?raw=1) · [Small update](versoes/v2.4.2/NEXUS-Monitor-v2.4.2-update.zip?raw=1) · [Changelog](CHANGELOG.md) · [FAQ](FAQ.md) · [Privacy](PRIVACY.md) · [Português](README.pt.md)
 
 <img src="docs/img/painel.png" alt="NEXUS Monitor main dashboard" width="900">
 
@@ -53,7 +53,7 @@ It's made for gamers but explained for people who don't know much about PCs: eve
 
 ## Install
 
-1. Download **[NEXUS Monitor v2.4.1.zip](versoes/v2.4.1/NEXUS-Monitor-v2.4.1.zip?raw=1)**.
+1. Download **[NEXUS Monitor v2.4.2.zip](versoes/v2.4.2/NEXUS-Monitor-v2.4.2.zip?raw=1)**.
 2. Right-click the zip → **Extract All…** (don't run anything from inside the zip).
 3. Open the folder and double-click **`INSTALL NEXUS.bat`**.
 4. Pick the folder (or keep the suggested one), the optional extras and accept the administrator prompt. The installer speaks your Windows language.
@@ -65,7 +65,7 @@ The installer compiles NEXUS on your own PC (with the .NET compiler that ships w
 ## Update
 
 - **From NEXUS itself:** it checks for new versions when it opens and every hour and shows what changes. Press **INSTALL** and it does the rest (it verifies the download's SHA-256 first).
-- **By hand:** if you have one of the two previous versions, download the **[small update](versoes/v2.4.1/NEXUS-Monitor-v2.4.1-update.zip?raw=1)**, extract it and run `UPDATE NEXUS.bat`. Otherwise use the full zip.
+- **By hand:** if you have one of the two previous versions, download the **[small update](versoes/v2.4.2/NEXUS-Monitor-v2.4.2-update.zip?raw=1)**, extract it and run `UPDATE NEXUS.bat`. Otherwise use the full zip.
 
 Update checks can be turned off in **Options → General**. Every version is in [`versoes/`](versoes).
 

@@ -2,6 +2,12 @@
 
 Todas as versões estão em [`versoes/`](versoes). O NEXUS mostra estas notas na janela NOVIDADES.
 
+## v2.4.2
+[⬇ zip completo](versoes/v2.4.2/NEXUS-Monitor-v2.4.2.zip?raw=1) · [atualização](versoes/v2.4.2/NEXUS-Monitor-v2.4.2-update.zip?raw=1)
+
+- Corrigido: o painel pequeno aparecia todo espremido (cartões estreitos e sem valores).
+- O painel no 2.º monitor e o painel pequeno fecham com Esc ou com o ✕ no canto.
+
 ## v2.4.1
 [⬇ zip completo](versoes/v2.4.1/NEXUS-Monitor-v2.4.1.zip?raw=1) · [atualização](versoes/v2.4.1/NEXUS-Monitor-v2.4.1-update.zip?raw=1)
 
