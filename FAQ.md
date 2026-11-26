@@ -29,6 +29,9 @@ It's built to be light. The **NEXUS RESOURCES** card on the dashboard shows exac
 **Why a browser page instead of a normal window?**
 A page looks the same on the PC and on your phone, can be opened on a second monitor, and doesn't need extra runtimes. You can also open it in its own window (Options → General → Dashboard in a window) with Edge, Chrome, Brave or Vivaldi.
 
+**Can I change the look?**
+Yes, in Options → Appearance: 25 colour schemes, 7 styles (Neon, Simple, Old terminal, Classic, Glass, Blocks, Elegant), ready-made looks and font, corner, background and size tweaks. You can save your own themes and share them as a file.
+
 ## Install, update and uninstall
 
 **How do I install it?**
@@ -102,6 +105,15 @@ Games → Measure FPS: take a measurement named "before", change something, then
 
 **Can I launch games from my phone?**
 Yes, with PC control turned on: Games → Launch games from the phone (Steam games and games you've already played).
+
+**What is the game route? It sounds like ExitLag.**
+It's similar and free: in Performance → Network, NEXUS can send a game's traffic through Cloudflare's network (Cloudflare WARP) when that lowers your ping. It's off until you turn it on, asks for permission first, and only the game's traffic goes through it.
+
+**Can the route disconnect me from the server?**
+No. The route never changes mid-match. When Cloudflare is faster, it turns on as soon as you open the game next time, before you join a server, and turns off when you close it. Tests during a game don't touch the game's connection.
+
+**Does the route break the "nothing leaves the PC" rule?**
+It's the only exception and it's optional: it only works after you allow it, and that game's traffic goes through Cloudflare. The privacy policy explains everything. You can revoke permission and uninstall WARP from the same card.
 
 ## Optimisations
 

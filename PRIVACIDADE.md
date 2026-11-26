@@ -24,8 +24,13 @@ O painel corre num pequeno servidor local (`localhost:8765`). Só fica visível 
 | Só quando carregas em TESTAR DNS | Cloudflare, Google, Quad9 e outros servidores DNS públicos | Ver qual responde mais depressa. |
 | Só se ligares as notificações | `ntfy.sh` (ou o servidor que escolheres) | Enviar avisos para o telemóvel. O tópico é aleatório. |
 | Só se ligares o Discord | A app do Discord no PC (ligação local) | Mostrar o jogo e os FPS no teu perfil do Discord. |
+| **Só se ligares a rota para jogos** (2.4) | Cloudflare (`downloads.cloudflareclient.com` para instalar o WARP, depois a rede WARP da Cloudflare) | O **tráfego do jogo** até ao servidor dele passa pela Cloudflare quando é mais rápido. Só esse servidor; o resto da internet não. Desligada por defeito, pede autorização antes e mostra **"🌐 ROTA CLOUDFLARE ATIVA"** no painel e no overlay enquanto está ligada. |
 
 As ferramentas da 2.3 que mostram programas que usam a internet, Wi-Fi, segurança, inventário e outras leem apenas o que o Windows já sabe. **Nada disso é enviado.** A imagem de "O meu PC" é feita no PC e não leva números de série.
+
+## A rota opcional para jogos (Cloudflare)
+
+É a única funcionalidade do NEXUS que faz o teu tráfego passar por outra empresa. Vem desligada e só avança depois de aceitares uma janela que explica isto. O NEXUS instala então o Cloudflare WARP (grátis, do site oficial, confirmando que o ficheiro está assinado pela Cloudflare) e aceita os [termos](https://www.cloudflare.com/application/terms/) dele em teu nome. Em cada jogo mede as duas rotas e só usa a da Cloudflare quando ganha, e só para o servidor desse jogo. Desliga-se quando o jogo fecha ou quando fechas o NEXUS. Política de privacidade da Cloudflare: [cloudflare.com/privacypolicy](https://www.cloudflare.com/privacypolicy/). Podes desligar e desinstalar o WARP no mesmo cartão quando quiseres.
 
 ## Atualizações seguras
 

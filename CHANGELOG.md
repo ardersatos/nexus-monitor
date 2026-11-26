@@ -2,6 +2,18 @@
 
 Every version is in [`versoes/`](versoes). NEXUS shows these notes in the WHAT'S NEW window.
 
+## v2.4
+[⬇ full zip](versoes/v2.4/NEXUS-Monitor-v2.4.zip?raw=1) · [update](versoes/v2.4/NEXUS-Monitor-v2.4-update.zip?raw=1)
+
+- NEW THEMES: 17 colour schemes (Vampire, Nordic, Ocean, Sakura, Old paper, Classic 98, High contrast...) and 7 styles that change the look of every page: Neon, Simple, Old terminal, Classic, Glass, Blocks and Elegant. One-click ready-made looks and font, corner, background, size and animation tweaks (Options → Appearance).
+- MY THEMES: save your look with a name and share it as a file. Whoever imports it gets the same look. Nothing goes to the internet.
+- The game route never changes mid-match (that would disconnect you from the server): it turns on as soon as you open the game, for the servers it has used before.
+- GAME ROUTE (optional, like ExitLag): in Performance → Network, one button sets it all up. NEXUS installs Cloudflare WARP, finds each game's server, measures both routes and only uses Cloudflare's when it's faster, for that game only. It asks for permission first and shows "CLOUDFLARE ROUTE" at the top and in the overlay while active.
+- WHERE IS THE LAG?: traces the path to the game server and tells you whether the delay is at home, at your ISP or due to distance.
+- Stream Deck with separate actions: PC stat, Music, NEXUS buttons and Open game (opens a game with one key). New buttons: Deep Scan and Cloudflare route.
+- PC startup: each program that slowed startup shows once (with its worst delay) and has buttons to remove it from startup or uninstall it. Windows parts are marked.
+- Cards that don't apply to your PC no longer show: thermal paste without a hotspot sensor, Wi-Fi when you're on cable, NVIDIA App when it isn't installed, GPU control on non-NVIDIA cards, Steam space without Steam.
+
 ## v2.3.1
 [⬇ full zip](versoes/v2.3.1/NEXUS-Monitor-v2.3.1.zip?raw=1) · [update](versoes/v2.3.1/NEXUS-Monitor-v2.3.1-update.zip?raw=1)
 

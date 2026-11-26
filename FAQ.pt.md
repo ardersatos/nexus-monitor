@@ -29,6 +29,9 @@ Foi feito para ser leve. O cartão **RECURSOS DO NEXUS** no painel mostra exatam
 **Porquê uma página no browser e não uma janela normal?**
 Uma página fica igual no PC e no telemóvel, abre num 2.º monitor e não precisa de nada instalado a mais. Também a podes abrir numa janela própria (Opções → Geral → Painel numa janela) com o Edge, Chrome, Brave ou Vivaldi.
 
+**Posso mudar o aspeto?**
+Sim, em Opções → Aparência: 25 esquemas de cores, 7 estilos (Néon, Simples, Terminal antigo, Clássico, Vidro, Blocos, Elegante), combinações prontas e ajustes de letra, cantos, fundo e tamanho. Podes guardar os teus temas e partilhá-los num ficheiro.
+
 ## Instalar, atualizar e desinstalar
 
 **Como instalo?**
@@ -102,6 +105,15 @@ Jogos → Medir FPS: faz uma medição chamada "antes", muda o que quiseres e fa
 
 **Posso abrir jogos pelo telemóvel?**
 Sim, com o Controlo do PC ligado: Jogos → Abrir jogos pelo telemóvel (jogos da Steam e jogos que já jogaste).
+
+**O que é a rota para jogos? Parece o ExitLag.**
+É parecida e é grátis: em Performance → Rede, o NEXUS pode passar o tráfego de um jogo pela rede da Cloudflare (Cloudflare WARP) quando isso baixa o ping. Está desligada até a ligares, pede autorização antes, e só o tráfego do jogo passa por lá.
+
+**A rota pode desligar-me do servidor?**
+Não. A rota nunca muda a meio de uma partida. Quando a Cloudflare é mais rápida, liga-se logo que abres o jogo da próxima vez, antes de entrares num servidor, e desliga-se quando o fechas. Os testes durante o jogo não tocam na ligação do jogo.
+
+**A rota quebra a regra de nada sair do PC?**
+É a única exceção e é opcional: só funciona depois de autorizares, e o tráfego desse jogo passa pela Cloudflare. A política de privacidade explica tudo. Podes retirar a autorização e desinstalar o WARP no mesmo cartão.
 
 ## Otimizações
 

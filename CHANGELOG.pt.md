@@ -2,6 +2,18 @@
 
 Todas as versões estão em [`versoes/`](versoes). O NEXUS mostra estas notas na janela NOVIDADES.
 
+## v2.4
+[⬇ zip completo](versoes/v2.4/NEXUS-Monitor-v2.4.zip?raw=1) · [atualização](versoes/v2.4/NEXUS-Monitor-v2.4-update.zip?raw=1)
+
+- TEMAS NOVOS: 17 esquemas de cores (Vampiro, Nórdico, Oceano, Sakura, Papel antigo, Clássico 98, Alto contraste...) e 7 estilos que mudam o aspeto de todas as páginas: Néon, Simples, Terminal antigo, Clássico, Vidro, Blocos e Elegante. Combinações prontas com um clique e ajustes de letra, cantos, fundo, tamanho e animações (Opções → Aparência).
+- OS MEUS TEMAS: guarda o teu aspeto com um nome e partilha-o num ficheiro. Quem o importar fica igual a ti. Nada vai para a internet.
+- A rota para jogos nunca muda a meio de uma partida (isso desligava-te do servidor): liga-se logo que abres o jogo, para os servidores que ele já usou.
+- ROTA PARA JOGOS (opcional, tipo ExitLag): em Performance → Rede, um botão liga tudo. O NEXUS instala o Cloudflare WARP, descobre o servidor de cada jogo, mede as duas rotas e só usa a da Cloudflare se for mais rápida, só para esse jogo. Pede autorização antes e mostra "ROTA CLOUDFLARE" no topo e no overlay enquanto está ativa.
+- ONDE ESTÁ O LAG?: segue o caminho até ao servidor do jogo e diz se o atraso está em casa, na operadora ou na distância.
+- Stream Deck com ações separadas: Estatística do PC, Música, Botões do NEXUS e Abrir jogo (abre um jogo com uma tecla). Botões novos: Deep Scan e Rota Cloudflare.
+- Arranque do PC: cada programa que atrasou o arranque aparece uma vez (com o pior atraso) e tem botões para o tirar do arranque ou desinstalar. As partes do Windows ficam marcadas.
+- Cartões que não servem para o teu PC deixam de aparecer: pasta térmica sem sensor de hotspot, Wi-Fi quando estás por cabo, NVIDIA App quando não está instalada, controlo da placa em placas que não são NVIDIA, Steam sem Steam.
+
 ## v2.3.1
 [⬇ zip completo](versoes/v2.3.1/NEXUS-Monitor-v2.3.1.zip?raw=1) · [atualização](versoes/v2.3.1/NEXUS-Monitor-v2.3.1-update.zip?raw=1)
 
