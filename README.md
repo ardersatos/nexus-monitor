@@ -8,6 +8,7 @@
 ![Windows](https://img.shields.io/badge/Windows-10%20%7C%2011-c4b5ff?style=for-the-badge&logo=windows11&logoColor=white)
 ![Privacidade](https://img.shields.io/badge/dados-ficam%20no%20PC-7dffcf?style=for-the-badge)
 ![Línguas](https://img.shields.io/badge/PT%20%C2%B7%20EN%20%C2%B7%20ES%20%C2%B7%20FR%20%C2%B7%20DE-ffd27a?style=for-the-badge)
+![Licença](https://img.shields.io/badge/licen%C3%A7a-MIT-ff6b8a?style=for-the-badge)
 
 [**⬇ Transferir v2.2.2**](versoes/v2.2.2/NEXUS-Monitor-v2.2.2.zip?raw=1) · [Atualização pequena](versoes/v2.2.2/NEXUS-Monitor-v2.2.2-update.zip?raw=1) · [Novidades](CHANGELOG.md) · [Privacidade](PRIVACIDADE.md) · [English](README.en.md)
 
@@ -93,6 +94,10 @@ Confirma que o NEXUS corre como administrador e que o modo de sensores é o "Com
 
 Em **Definições → Aplicações** ou com `DESINSTALAR NEXUS.bat` na pasta do NEXUS. Se quiseres o Windows como estava, carrega antes em **REPOR** na Performance.
 </details>
+
+## Licença
+
+[MIT](LICENSE): podes usar, copiar, alterar e partilhar o NEXUS à vontade, desde que mantenhas o aviso de licença. Os componentes descarregados na instalação (LibreHardwareMonitor, PawnIO, PresentMon, gdu) têm as licenças deles.
 
 ## Problemas e ideias
 
