@@ -2,6 +2,12 @@
 
 Todas as versões estão em [`versoes/`](versoes). O NEXUS mostra estas notas na janela NOVIDADES.
 
+## v2.5.1
+[⬇ zip completo](versoes/v2.5.1/NEXUS-Monitor-v2.5.1.zip?raw=1) · [atualização](versoes/v2.5.1/NEXUS-Monitor-v2.5.1-update.zip?raw=1)
+
+- Stream Deck: as teclas de bateria mostram o nome do aparelho (ex.: VIPER, G502 X, CLOUD III).
+- Corrigido: a lista do "Ensina-o ao NEXUS" não mostrava os aparelhos. Os HyperX Cloud III Wireless mostram o tempo até desligarem.
+
 ## v2.5
 [⬇ zip completo](versoes/v2.5/NEXUS-Monitor-v2.5.zip?raw=1) · [atualização](versoes/v2.5/NEXUS-Monitor-v2.5-update.zip?raw=1)
 

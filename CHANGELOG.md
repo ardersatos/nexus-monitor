@@ -2,6 +2,12 @@
 
 Every version is in [`versoes/`](versoes). NEXUS shows these notes in the WHAT'S NEW window.
 
+## v2.5.1
+[⬇ full zip](versoes/v2.5.1/NEXUS-Monitor-v2.5.1.zip?raw=1) · [update](versoes/v2.5.1/NEXUS-Monitor-v2.5.1-update.zip?raw=1)
+
+- Stream Deck: battery keys show the device name (e.g. VIPER, G502 X, CLOUD III).
+- Fixed: the "Teach it to NEXUS" list did not show devices. HyperX Cloud III Wireless show their auto-off time.
+
 ## v2.5
 [⬇ full zip](versoes/v2.5/NEXUS-Monitor-v2.5.zip?raw=1) · [update](versoes/v2.5/NEXUS-Monitor-v2.5-update.zip?raw=1)
 
