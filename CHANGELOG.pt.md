@@ -2,6 +2,15 @@
 
 Todas as versões estão em [`versoes/`](versoes). O NEXUS mostra estas notas na janela NOVIDADES.
 
+## v2.4.3
+[⬇ zip completo](versoes/v2.4.3/NEXUS-Monitor-v2.4.3.zip?raw=1) · [atualização](versoes/v2.4.3/NEXUS-Monitor-v2.4.3-update.zip?raw=1)
+
+- A rota para jogos ficou mais segura: se fechares o jogo enquanto ela ainda está a ligar, desliga-se na mesma, e um teste nunca desliga a rota de um jogo que esteja a usá-la.
+- Performance e Deep Scan: cartões que podiam ficar em branco quando o Windows não devolvia dados (tempo de ecrã, atraso do clique, teste da RAM, o que impede o PC de dormir, limpeza, velocidade do disco).
+- Painéis do 2.º monitor e pequeno: já não mostram o aviso de versão nova.
+- Estilos Clássico e Blocos: a temperatura dos núcleos já não sai do cartão no telemóvel.
+- Traduções em falta.
+
 ## v2.4.2
 [⬇ zip completo](versoes/v2.4.2/NEXUS-Monitor-v2.4.2.zip?raw=1) · [atualização](versoes/v2.4.2/NEXUS-Monitor-v2.4.2-update.zip?raw=1)
 

@@ -2,6 +2,15 @@
 
 Every version is in [`versoes/`](versoes). NEXUS shows these notes in the WHAT'S NEW window.
 
+## v2.4.3
+[⬇ full zip](versoes/v2.4.3/NEXUS-Monitor-v2.4.3.zip?raw=1) · [update](versoes/v2.4.3/NEXUS-Monitor-v2.4.3-update.zip?raw=1)
+
+- The game route is safer: if you close the game while it is still turning on, it still turns off, and a test never turns off a route a game is using.
+- Performance and Deep Scan: cards that could stay blank when Windows returned no data (screen time, click delay, RAM test, what keeps the PC awake, cleanup, disk speed).
+- 2nd monitor and small panels no longer show the new-version notice.
+- Classic and Blocks styles: core temperatures no longer spill out of the card on phones.
+- Missing translations.
+
 ## v2.4.2
 [⬇ full zip](versoes/v2.4.2/NEXUS-Monitor-v2.4.2.zip?raw=1) · [update](versoes/v2.4.2/NEXUS-Monitor-v2.4.2-update.zip?raw=1)
 

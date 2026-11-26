@@ -1,17 +1,17 @@
 {
- "ver": "2.4.2",
+ "ver": "2.4.3",
  "date": "2026-11-26",
- "full": "versoes/v2.4.2/NEXUS-Monitor-v2.4.2.zip",
- "full_sha256": "f523d04a2c36f1ffaa9117c8e274879708545d29839a7db7d07bcf6a66e81749",
- "full_size": 1009921,
- "update": "versoes/v2.4.2/NEXUS-Monitor-v2.4.2-update.zip",
- "update_sha256": "64311e2b490b029a594051db02b0f1c8a330249ba3816b9b5b8591ca312ac327",
- "update_size": 509316,
- "updater": "versoes/v2.4.2/UPDATE NEXUS.bat",
- "updater_sha256": "7a3564764f7f332ce18901f49381f309341592ac4223bcc0b7e53c0404fd3e8b",
+ "full": "versoes/v2.4.3/NEXUS-Monitor-v2.4.3.zip",
+ "full_sha256": "828018095b5f2d6f9875d26a2a57fd466b5d924ae5781e54aa42b5ae2abb87f9",
+ "full_size": 1012677,
+ "update": "versoes/v2.4.3/NEXUS-Monitor-v2.4.3-update.zip",
+ "update_sha256": "f1ad272ea9c73da3ab2d4d14cecd4af6744b59bb247fdcab6884130c2ba86767",
+ "update_size": 657136,
+ "updater": "versoes/v2.4.3/UPDATE NEXUS.bat",
+ "updater_sha256": "cb503a5a9809cb028c65dd7b49705b9aca28fac45b29a74c1fb75abc3f17f4df",
  "update_from": [
-  "2.4",
-  "2.4.1"
+  "2.4.1",
+  "2.4.2"
  ],
  "update_files": [
   "CHANGELOG.pt.txt",
@@ -19,15 +19,25 @@
   "NexusMonitor.cs",
   "README.pt.txt",
   "README.txt",
+  "codigo\\Rota.cs",
+  "disk.html",
   "i18n.js",
-  "index.html"
+  "index.html",
+  "pad.html",
+  "perf.html"
  ],
  "notes_pt": [
-  "Corrigido: o painel pequeno aparecia todo espremido (cartões estreitos e sem valores).",
-  "O painel no 2.º monitor e o painel pequeno fecham com Esc ou com o ✕ no canto."
+  "A rota para jogos ficou mais segura: se fechares o jogo enquanto ela ainda está a ligar, desliga-se na mesma, e um teste nunca desliga a rota de um jogo que esteja a usá-la.",
+  "Performance e Deep Scan: cartões que podiam ficar em branco quando o Windows não devolvia dados (tempo de ecrã, atraso do clique, teste da RAM, o que impede o PC de dormir, limpeza, velocidade do disco).",
+  "Painéis do 2.º monitor e pequeno: já não mostram o aviso de versão nova.",
+  "Estilos Clássico e Blocos: a temperatura dos núcleos já não sai do cartão no telemóvel.",
+  "Traduções em falta."
  ],
  "notes_en": [
-  "Fixed: the small panel looked squashed (narrow cards with no values).",
-  "The 2nd monitor panel and the small panel close with Esc or the ✕ in the corner."
+  "The game route is safer: if you close the game while it is still turning on, it still turns off, and a test never turns off a route a game is using.",
+  "Performance and Deep Scan: cards that could stay blank when Windows returned no data (screen time, click delay, RAM test, what keeps the PC awake, cleanup, disk speed).",
+  "2nd monitor and small panels no longer show the new-version notice.",
+  "Classic and Blocks styles: core temperatures no longer spill out of the card on phones.",
+  "Missing translations."
  ]
 }
