@@ -2,6 +2,40 @@
 
 Todas as versões estão em [`versoes/`](versoes). O NEXUS mostra estas notas na janela NOVIDADES.
 
+## v2.5.3
+[⬇ zip completo](versoes/v2.5.3/NEXUS-Monitor-v2.5.3.zip?raw=1) · [atualização](versoes/v2.5.3/NEXUS-Monitor-v2.5.3-update.zip?raw=1)
+
+- Revisão completa do código: corrigidos 35 problemas, entre eles o «Ensinar ao NEXUS» que nunca mostrava os valores depois de gravar (as receitas antigas são recuperadas), comandos do Windows sem tempo limite que podiam deixar páginas penduradas, o Discord sem resposta a esgotar o NEXUS e o início de um jogo tratado duas vezes.
+- Mais leve: os atalhos do teclado já não acrescentam atraso a cada tecla, a página Otimizar abre mais depressa e os sensores e a deteção de jogo gastam menos processador e escrevem menos no disco.
+- NOVA INTERFACE: um menu à esquerda com tudo arrumado por assunto (Painel, Jogos, Otimizar, Dispositivos, Hardware, Discos, Rede, Saúde do PC e Definições), com um título e uma frase a explicar cada secção.
+- Definições reorganizadas por assunto num painel grande: Geral, Aparência, Avisos e limites, Atualizações, Privacidade, Telemóvel e remoto, Integrações, Cópia de segurança e Sobre.
+- Dispositivos arrumados por tipo (ratos, teclados, auscultadores) e guardados mesmo depois de reiniciar: os desligados aparecem à parte com a última bateria e saem sozinhos ao fim de 7 dias sem aparecer (ou quando os removes).
+- Stream Deck: um dispositivo desligado mostra a última bateria conhecida, a cinzento. Corrigido: o plugin não se instalava desde a 2.5.1 (erro ao compilar).
+- Tutorial novo: passa pelas páginas (Monitor, Performance e Deep Scan), abre cada separador e mostra as funções principais com dicas, incluindo o que é a Rota para jogos.
+- Cada caixa diz logo, numa frase, o que é e o que faz (a explicação completa continua no ⓘ). Os títulos ficaram todos iguais, sem ícones só nalguns.
+- Primeiros socorros: cada passo tem "ir →" para a caixa certa, e há guias novos (jogo que não abre por causa do anti-cheat, dispositivos que não aparecem, equalizador, NEXUS que fechou, plugin da Stream Deck).
+- Corrigido: o assistente de configuração nunca aparecia sozinho depois do tutorial; as definições já não se perdem se o PC desligar a meio de gravar; links para outro separador na mesma página já funcionam.
+- Ensinar ao NEXUS: percebe sozinho o que é cada leitura. Dizes o que queres ensinar (bateria, a carregar, DPI ou outra coisa), ele lê o aparelho várias vezes, ignora o que muda sozinho e sugere o mais provável com a explicação e a confiança. A bateria também se reconhece pela tensão (mV).
+- Testar o monitor a partir do telemóvel faz o teste no monitor do PC (o telemóvel serve de comando para passar de ecrã); antes testava o ecrã do telemóvel.
+- O plugin da Stream Deck atualiza-se sempre sozinho junto com o NEXUS (sem perguntar e sem ter de correr o instalador do plugin).
+- Aparelhos aparecem muito mais depressa: são lidos todos ao mesmo tempo e cada um aparece logo que responde.
+- Jogos: o NEXUS deixou de pôr em pausa o OneDrive, Dropbox, Google Drive e iCloud Drive (com a pasta Documentos na nuvem, os jogos travavam ou nem abriam), não fala com o rato e o teclado durante o jogo e o gancho do rato só se liga quando é mesmo preciso.
+- Teste de estabilidade com força Normal, Forte e Extremo, e duração até 60 minutos.
+- Boost de jogo: nunca mexe no jogo nem no anti-cheat dele (com anti-cheat aberto já não limpa a RAM nem muda a prioridade do jogo: davam erro ao abrir e imagem estragada).
+- As ventoinhas da placa gráfica a parar em repouso (modo 0 RPM) já não dão o aviso de ventoinha parada.
+- Stream Deck: a tecla de bateria só lista aparelhos com bateria e atualiza mais depressa.
+- Corrigido: logo a seguir a atualizar podia aparecer uma barra verde vazia no início.
+- Jogos com anti-cheat: o NEXUS nunca abre o jogo para ler a memória dele (só pergunta o caminho do ficheiro, como o Gestor de Tarefas). Antes, o tempo de ecrã e o arranque do jogo faziam isso e alguns anti-cheats davam erro ou fechavam o jogo.
+- Teclado mais rápido nos jogos: os atalhos, o Snap Tap e o modo jogo já não esperam pelo ficheiro de definições a cada tecla (podia dar pequenos atrasos). O Snap Tap desliga-se sozinho em jogos com anti-cheat.
+- Equalizador: mexer numa banda ou filtro liga-o logo (antes ficava desligado e parecia não fazer nada) e funciona nos aparelhos com drivers modernos do Windows 11 (listas de efeitos compostas). Se não funcionava, carrega outra vez em preparar.
+- Atualização automática: se não conseguir instalar já não fica "a instalar" para sempre (deixa o zip nas Transferências) e a limpeza do arranque já não apaga a pasta de uma atualização a decorrer.
+- Plugin da Stream Deck: o instalador funciona também a partir do zip de atualização e confere que o plugin copiado é mesmo o novo (tenta 3 vezes se a Stream Deck ainda o tiver aberto).
+- Estabilidade: um erro inesperado já não fecha o NEXUS sem explicação (fica registado em nexus_crash.txt); o ping, o plugin da Stream Deck e o teste de estabilidade já não morrem com um erro.
+- Auscultadores: corrigida a leitura que podia escrever em memória errada (fechos do NEXUS ao acaso).
+- Segurança: um site aberto no browser já não consegue falar com o NEXUS a fingir outro endereço (DNS rebinding), e o que outros PCs da rede mandam é verificado antes de aparecer.
+- Aparelhos ensinados ao NEXUS: só se leem os dados das receitas (antes lia tudo a cada poucos segundos) e corrigido um caso em que os valores ensinados nunca apareciam.
+- Segurança: remover um driver antigo já não deixa juntar opções escondidas ao comando do Windows (uma aspa no nome do aparelho bastava).
+
 ## v2.5.2
 [⬇ zip completo](versoes/v2.5.2/NEXUS-Monitor-v2.5.2.zip?raw=1) · [atualização](versoes/v2.5.2/NEXUS-Monitor-v2.5.2-update.zip?raw=1)
 

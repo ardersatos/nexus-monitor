@@ -2,6 +2,40 @@
 
 Every version is in [`versoes/`](versoes). NEXUS shows these notes in the WHAT'S NEW window.
 
+## v2.5.3
+[⬇ full zip](versoes/v2.5.3/NEXUS-Monitor-v2.5.3.zip?raw=1) · [update](versoes/v2.5.3/NEXUS-Monitor-v2.5.3-update.zip?raw=1)
+
+- Full code review: 35 problems fixed, including «Teach NEXUS» never showing the values after saving (old recipes are recovered), Windows commands with no time limit that could leave pages hanging, an unresponsive Discord exhausting NEXUS and a game start handled twice.
+- Lighter: keyboard shortcuts no longer add lag to every key, the Optimize page opens faster and the sensors and game detection use less CPU and write less to disk.
+- NEW INTERFACE: a menu on the left with everything sorted by topic (Dashboard, Games, Optimize, Devices, Hardware, Drives, Network, PC health and Settings), with a title and a line explaining each section.
+- Settings reorganized by topic in a large panel: General, Appearance, Alerts and limits, Updates, Privacy, Phone and remote, Integrations, Backup and About.
+- Devices sorted by type (mice, keyboards, headsets) and remembered even after restarting: the ones that are off appear separately with their last battery and are removed by themselves after 7 days without showing up (or when you remove them).
+- Stream Deck: a device that is off shows its last known battery, in grey. Fixed: the plugin had not installed since 2.5.1 (build error).
+- New tutorial: it goes through the pages (Monitor, Performance and Deep Scan), opens each tab and shows the main features with tips, including what Game route is.
+- Each box now says right away, in one line, what it is and what it does (the full explanation is still in the ⓘ). All titles now look the same, without icons on only some.
+- First aid: each step has "go →" to the right box, and there are new guides (game that will not open because of the anti-cheat, devices not showing up, equalizer, NEXUS closed, Stream Deck plugin).
+- Fixed: the setup assistant never appeared by itself after the tutorial; settings are no longer lost if the PC turns off while saving; links to another tab on the same page now work.
+- Teach NEXUS: it works out by itself what each reading is. You say what you want to teach (battery, charging, DPI or something else), it reads the device several times, ignores what changes by itself and suggests the most likely one with the explanation and the confidence. The battery is also recognised by its voltage (mV).
+- Testing the monitor from the phone runs the test on the PC monitor (the phone works as a remote to change screens); before it tested the phone screen.
+- The Stream Deck plugin always updates by itself together with NEXUS (no question, no need to run the plugin installer).
+- Devices show up much faster: they are all read at the same time and each appears as soon as it answers.
+- Games: NEXUS no longer pauses OneDrive, Dropbox, Google Drive and iCloud Drive (with Documents in the cloud, games froze or would not open), does not talk to the mouse and keyboard during games, and the mouse hook is only on when really needed.
+- Stability test with Normal, Strong and Extreme strength, and up to 60 minutes.
+- Game boost: never touches the game or its anti-cheat (with an anti-cheat running it no longer cleans RAM or changes the game priority: that caused launch errors and broken image).
+- Graphics card fans stopping at idle (0 RPM mode) no longer trigger the stopped-fan alert.
+- Stream Deck: the battery key only lists devices with a battery and updates faster.
+- Fixed: right after updating, an empty green bar could appear on the home page.
+- Games with anti-cheat: NEXUS never opens the game to read its memory (it only asks for the file path, like Task Manager). Before, screen time and game start did that and some anti-cheats showed an error or closed the game.
+- Faster keyboard in games: shortcuts, Snap Tap and game mode no longer wait for the settings file on every key press (could cause small delays). Snap Tap turns itself off in games with anti-cheat.
+- Equalizer: moving a band or filter turns it on right away (before it stayed off and seemed to do nothing) and it works on devices with modern Windows 11 drivers (composite effect lists). If it did not work, press prepare again.
+- Automatic update: if it cannot install it no longer stays "installing" forever (it leaves the zip in Downloads) and the startup cleanup no longer deletes the folder of an update in progress.
+- Stream Deck plugin: the installer also works from the update zip and checks that the copied plugin really is the new one (tries 3 times if Stream Deck still has it open).
+- Stability: an unexpected error no longer closes NEXUS without explanation (it is logged in nexus_crash.txt); ping, the Stream Deck plugin and the stability test no longer die on an error.
+- Headsets: fixed the reading that could write to the wrong memory (random NEXUS crashes).
+- Security: a website open in the browser can no longer talk to NEXUS by faking another address (DNS rebinding), and what other PCs on the network send is checked before it is shown.
+- Devices taught to NEXUS: only the recipe data is read (before it read everything every few seconds) and fixed a case where taught values never showed up.
+- Security: removing an old driver no longer lets hidden options be added to the Windows command (one quote in the device name was enough).
+
 ## v2.5.2
 [⬇ full zip](versoes/v2.5.2/NEXUS-Monitor-v2.5.2.zip?raw=1) · [update](versoes/v2.5.2/NEXUS-Monitor-v2.5.2-update.zip?raw=1)
 
