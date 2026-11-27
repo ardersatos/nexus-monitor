@@ -2,6 +2,13 @@
 
 Todas as versões estão em [`versoes/`](versoes). O NEXUS mostra estas notas na janela NOVIDADES.
 
+## v2.5.4
+[⬇ zip completo](versoes/v2.5.4/NEXUS-Monitor-v2.5.4.zip?raw=1) · [atualização](versoes/v2.5.4/NEXUS-Monitor-v2.5.4-update.zip?raw=1)
+
+- Corrigido o erro «A porta 8765 já está a ser usada» que aparecia às vezes ao abrir: os programas lançados pelo NEXUS ficavam com a porta presa.
+- Definições: os separadores Atualizações, Integrações, Cópia de segurança e Sobre apareciam vazios. Corrigido.
+- A barra «Está tudo bem» deixou de aparecer: a barra do topo só surge quando há algum aviso.
+
 ## v2.5.3
 [⬇ zip completo](versoes/v2.5.3/NEXUS-Monitor-v2.5.3.zip?raw=1) · [atualização](versoes/v2.5.3/NEXUS-Monitor-v2.5.3-update.zip?raw=1)
 

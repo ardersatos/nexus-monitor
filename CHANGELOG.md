@@ -2,6 +2,13 @@
 
 Every version is in [`versoes/`](versoes). NEXUS shows these notes in the WHAT'S NEW window.
 
+## v2.5.4
+[⬇ full zip](versoes/v2.5.4/NEXUS-Monitor-v2.5.4.zip?raw=1) · [update](versoes/v2.5.4/NEXUS-Monitor-v2.5.4-update.zip?raw=1)
+
+- Fixed the «Port 8765 is already in use» error that sometimes showed on start: programs launched by NEXUS kept the port.
+- Settings: the Updates, Integrations, Backup and About tabs showed up empty. Fixed.
+- The «All good» bar no longer shows: the top bar only appears when there is a warning.
+
 ## v2.5.3
 [⬇ full zip](versoes/v2.5.3/NEXUS-Monitor-v2.5.3.zip?raw=1) · [update](versoes/v2.5.3/NEXUS-Monitor-v2.5.3-update.zip?raw=1)
 
