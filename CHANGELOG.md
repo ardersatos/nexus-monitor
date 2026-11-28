@@ -2,6 +2,24 @@
 
 Every version is in [`versoes/`](versoes). NEXUS shows these notes in the WHAT'S NEW window.
 
+## v2.6.0
+[⬇ full zip](versoes/v2.6.0/NEXUS-Monitor-v2.6.0.zip?raw=1) · [update](versoes/v2.6.0/NEXUS-Monitor-v2.6.0-update.zip?raw=1)
+
+- Gallery on your phone: watch clips (with seeking) and download screenshots and videos over the home network, if you turn the option on on the PC.
+- Home network (new menu): who is connected to your router, new-device warning, ports the router opened to the internet, a warning if the router changes (possible attack) and slow network cable. It only talks to the home network, never the internet.
+- Gallery (new menu): screenshots and clips from Steam, Xbox Game Bar, NVIDIA, AMD, Medal, OBS and Win+PrtSc in one place, by game.
+- Microphone: a shortcut in any program, talk only while holding a key, mute all mics and an on-screen warning while muted.
+- Phone as the PC’s mouse and keyboard (trackpad, typing, arrows, Alt+Tab), in the PC control card.
+- Achievements have their own menu and unlock colour themes and styles (the Windows 98 style only comes from an achievement). If you were already using one of these, you keep it.
+- Xbox and PlayStation controllers (DualSense and DualShock 4): battery in NEXUS, on the Stream Deck and on your phone.
+- How much battery time is left on mice, keyboards, headsets and controllers, based on how fast it drops.
+- Mouse and keyboard stats (keys, clicks, metres of mouse, key heatmap and actions per minute in each game) and achievements that unlock new themes.
+- PC Health: dust warning (the PC runs hotter than a few months ago under the same load), memory leaks, programs working while the PC is idle (hidden miners) and who used the camera and microphone.
+- Network: internet use per program per month, open ports with a warning for new programs, forgotten VPN or proxy, and a warning when the hosts file changes.
+- Staggered startup: startup programs open one at a time, after the PC settles.
+- Notification when a Steam or Epic game finishes updating, and USB 3 devices plugged into a USB 2 port.
+- All of this stays on the PC: nothing is sent to the internet.
+
 ## v2.5.4
 [⬇ full zip](versoes/v2.5.4/NEXUS-Monitor-v2.5.4.zip?raw=1) · [update](versoes/v2.5.4/NEXUS-Monitor-v2.5.4-update.zip?raw=1)
 

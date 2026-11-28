@@ -2,6 +2,24 @@
 
 Todas as versões estão em [`versoes/`](versoes). O NEXUS mostra estas notas na janela NOVIDADES.
 
+## v2.6.0
+[⬇ zip completo](versoes/v2.6.0/NEXUS-Monitor-v2.6.0.zip?raw=1) · [atualização](versoes/v2.6.0/NEXUS-Monitor-v2.6.0-update.zip?raw=1)
+
+- Galeria no telemóvel: vê os clipes (com avanço) e descarrega capturas e vídeos pela rede de casa, se ligares a opção no PC.
+- Rede de casa (menu novo): quem está ligado ao teu router, aviso de dispositivo novo, portas que o router abriu para a internet, aviso se o router mudar (possível ataque) e cabo de rede lento. Só fala com a rede de casa, nunca com a internet.
+- Galeria (menu novo): as capturas e clipes da Steam, Xbox Game Bar, NVIDIA, AMD, Medal, OBS e Win+PrtSc num só sítio, por jogo.
+- Microfone: atalho em qualquer programa, falar só enquanto carregas numa tecla, silenciar todos os micros e aviso no ecrã enquanto está silenciado.
+- Telemóvel como rato e teclado do PC (trackpad, escrever, setas, Alt+Tab), no cartão de controlo do PC.
+- Conquistas têm o seu próprio menu e desbloqueiam temas de cores e estilos (o estilo Windows 98 só sai com uma conquista). Quem já usava um destes continua com ele.
+- Comandos Xbox e PlayStation (DualSense e DualShock 4): bateria no NEXUS, na Stream Deck e no telemóvel.
+- Quanto tempo falta de bateria em ratos, teclados, auscultadores e comandos, pelo ritmo a que desce.
+- Estatísticas do rato e do teclado (teclas, cliques, metros de rato, mapa das teclas e ações por minuto em cada jogo) e conquistas que desbloqueiam temas novos.
+- Saúde do PC: aviso de pó (o PC aquece mais do que há uns meses com a mesma carga), fugas de memória, programas a trabalhar com o PC parado (mineradores escondidos) e quem usou a câmara e o microfone.
+- Rede: internet de cada programa por mês, portas abertas com aviso de programa novo, VPN ou proxy esquecidos e aviso quando o ficheiro hosts muda.
+- Arranque escalonado: os programas do arranque abrem um de cada vez, depois de o PC acalmar.
+- Aviso quando um jogo da Steam ou da Epic acaba de atualizar, e dispositivos USB 3 ligados numa porta USB 2.
+- Tudo isto fica no PC: nada é enviado para a internet.
+
 ## v2.5.4
 [⬇ zip completo](versoes/v2.5.4/NEXUS-Monitor-v2.5.4.zip?raw=1) · [atualização](versoes/v2.5.4/NEXUS-Monitor-v2.5.4-update.zip?raw=1)
 
@@ -22,26 +40,26 @@ Todas as versões estão em [`versoes/`](versoes). O NEXUS mostra estas notas na
 - Cada caixa diz logo, numa frase, o que é e o que faz (a explicação completa continua no ⓘ). Os títulos ficaram todos iguais, sem ícones só nalguns.
 - Primeiros socorros: cada passo tem "ir →" para a caixa certa, e há guias novos (jogo que não abre por causa do anti-cheat, dispositivos que não aparecem, equalizador, NEXUS que fechou, plugin da Stream Deck).
 - Corrigido: o assistente de configuração nunca aparecia sozinho depois do tutorial; as definições já não se perdem se o PC desligar a meio de gravar; links para outro separador na mesma página já funcionam.
-- Ensinar ao NEXUS: percebe sozinho o que é cada leitura. Dizes o que queres ensinar (bateria, a carregar, DPI ou outra coisa), ele lê o aparelho várias vezes, ignora o que muda sozinho e sugere o mais provável com a explicação e a confiança. A bateria também se reconhece pela tensão (mV).
+- Ensinar ao NEXUS: percebe sozinho o que é cada leitura. Dizes o que queres ensinar (bateria, a carregar, DPI ou outra coisa), ele lê o dispositivo várias vezes, ignora o que muda sozinho e sugere o mais provável com a explicação e a confiança. A bateria também se reconhece pela tensão (mV).
 - Testar o monitor a partir do telemóvel faz o teste no monitor do PC (o telemóvel serve de comando para passar de ecrã); antes testava o ecrã do telemóvel.
 - O plugin da Stream Deck atualiza-se sempre sozinho junto com o NEXUS (sem perguntar e sem ter de correr o instalador do plugin).
-- Aparelhos aparecem muito mais depressa: são lidos todos ao mesmo tempo e cada um aparece logo que responde.
+- Dispositivos aparecem muito mais depressa: são lidos todos ao mesmo tempo e cada um aparece logo que responde.
 - Jogos: o NEXUS deixou de pôr em pausa o OneDrive, Dropbox, Google Drive e iCloud Drive (com a pasta Documentos na nuvem, os jogos travavam ou nem abriam), não fala com o rato e o teclado durante o jogo e o gancho do rato só se liga quando é mesmo preciso.
 - Teste de estabilidade com força Normal, Forte e Extremo, e duração até 60 minutos.
 - Boost de jogo: nunca mexe no jogo nem no anti-cheat dele (com anti-cheat aberto já não limpa a RAM nem muda a prioridade do jogo: davam erro ao abrir e imagem estragada).
 - As ventoinhas da placa gráfica a parar em repouso (modo 0 RPM) já não dão o aviso de ventoinha parada.
-- Stream Deck: a tecla de bateria só lista aparelhos com bateria e atualiza mais depressa.
+- Stream Deck: a tecla de bateria só lista dispositivos com bateria e atualiza mais depressa.
 - Corrigido: logo a seguir a atualizar podia aparecer uma barra verde vazia no início.
 - Jogos com anti-cheat: o NEXUS nunca abre o jogo para ler a memória dele (só pergunta o caminho do ficheiro, como o Gestor de Tarefas). Antes, o tempo de ecrã e o arranque do jogo faziam isso e alguns anti-cheats davam erro ou fechavam o jogo.
 - Teclado mais rápido nos jogos: os atalhos, o Snap Tap e o modo jogo já não esperam pelo ficheiro de definições a cada tecla (podia dar pequenos atrasos). O Snap Tap desliga-se sozinho em jogos com anti-cheat.
-- Equalizador: mexer numa banda ou filtro liga-o logo (antes ficava desligado e parecia não fazer nada) e funciona nos aparelhos com drivers modernos do Windows 11 (listas de efeitos compostas). Se não funcionava, carrega outra vez em preparar.
+- Equalizador: mexer numa banda ou filtro liga-o logo (antes ficava desligado e parecia não fazer nada) e funciona nos dispositivos com drivers modernos do Windows 11 (listas de efeitos compostas). Se não funcionava, carrega outra vez em preparar.
 - Atualização automática: se não conseguir instalar já não fica "a instalar" para sempre (deixa o zip nas Transferências) e a limpeza do arranque já não apaga a pasta de uma atualização a decorrer.
 - Plugin da Stream Deck: o instalador funciona também a partir do zip de atualização e confere que o plugin copiado é mesmo o novo (tenta 3 vezes se a Stream Deck ainda o tiver aberto).
 - Estabilidade: um erro inesperado já não fecha o NEXUS sem explicação (fica registado em nexus_crash.txt); o ping, o plugin da Stream Deck e o teste de estabilidade já não morrem com um erro.
 - Auscultadores: corrigida a leitura que podia escrever em memória errada (fechos do NEXUS ao acaso).
 - Segurança: um site aberto no browser já não consegue falar com o NEXUS a fingir outro endereço (DNS rebinding), e o que outros PCs da rede mandam é verificado antes de aparecer.
-- Aparelhos ensinados ao NEXUS: só se leem os dados das receitas (antes lia tudo a cada poucos segundos) e corrigido um caso em que os valores ensinados nunca apareciam.
-- Segurança: remover um driver antigo já não deixa juntar opções escondidas ao comando do Windows (uma aspa no nome do aparelho bastava).
+- Dispositivos ensinados ao NEXUS: só se leem os dados das receitas (antes lia tudo a cada poucos segundos) e corrigido um caso em que os valores ensinados nunca apareciam.
+- Segurança: remover um driver antigo já não deixa juntar opções escondidas ao comando do Windows (uma aspa no nome do dispositivo bastava).
 
 ## v2.5.2
 [⬇ zip completo](versoes/v2.5.2/NEXUS-Monitor-v2.5.2.zip?raw=1) · [atualização](versoes/v2.5.2/NEXUS-Monitor-v2.5.2-update.zip?raw=1)
@@ -52,29 +70,29 @@ Todas as versões estão em [`versoes/`](versoes). O NEXUS mostra estas notas na
 ## v2.5.1
 [⬇ zip completo](versoes/v2.5.1/NEXUS-Monitor-v2.5.1.zip?raw=1) · [atualização](versoes/v2.5.1/NEXUS-Monitor-v2.5.1-update.zip?raw=1)
 
-- Stream Deck: as teclas de bateria mostram o nome do aparelho (ex.: VIPER, G502 X, CLOUD III).
-- Corrigido: a lista do "Ensina-o ao NEXUS" não mostrava os aparelhos. Os HyperX Cloud III Wireless mostram o tempo até desligarem.
+- Stream Deck: as teclas de bateria mostram o nome do dispositivo (ex.: VIPER, G502 X, CLOUD III).
+- Corrigido: a lista do "Ensina-o ao NEXUS" não mostrava os dispositivos. Os HyperX Cloud III Wireless mostram o tempo até desligarem.
 
 ## v2.5
 [⬇ zip completo](versoes/v2.5/NEXUS-Monitor-v2.5.zip?raw=1) · [atualização](versoes/v2.5/NEXUS-Monitor-v2.5-update.zip?raw=1)
 
-- NOVO SEPARADOR CONTROLOS (Performance): ratos, teclados e auscultadores Razer e Logitech sem o Synapse nem o G HUB. DPI, níveis de DPI, taxa de envio (até 8000 Hz), bateria, tempo até adormecer, roda dos MX, teclas F e "ouvir a minha voz". Só aparece o que o teu aparelho tem, com um desenho parecido com ele.
+- NOVO SEPARADOR CONTROLOS (Performance): ratos, teclados e auscultadores Razer e Logitech sem o Synapse nem o G HUB. DPI, níveis de DPI, taxa de envio (até 8000 Hz), bateria, tempo até adormecer, roda dos MX, teclas F e "ouvir a minha voz". Só aparece o que o teu dispositivo tem, com um desenho parecido com ele.
 - DPI e taxa de envio por jogo: mudam sozinhos quando o jogo abre e voltam quando fecha.
 - Macros: grava teclas e cliques e repete-os uma vez, várias vezes, enquanto seguras ou liga/desliga.
 - Atalhos à tua escolha, também com os botões laterais do rato e só num jogo ou só num teclado/rato: macro, clique rápido (turbo), DPI seguinte/anterior, DPI de precisão, microfone, música, painel pequeno, medir FPS, abrir um programa, escrever um texto.
 - Nos jogos com anti-cheat as macros e o turbo ficam desligados (podiam dar ban), a não ser que autorizes.
-- Auscultadores e microfone de qualquer marca: escolher o aparelho, volume e silenciar.
+- Auscultadores e microfone de qualquer marca: escolher o dispositivo, volume e silenciar.
 - Equalizador para todo o som do PC, preparado pelo NEXUS num clique (sem janelas, programas extra nem reiniciar): modo simples de 10 bandas ou avançado com filtros, curva desenhada, ajustes prontos e, para mais de 60 auscultadores conhecidos, correção do som feita para eles (AutoEq).
 - Testes: taxa real do rato, duplo clique (botões a estragar-se) e teclas (teclado no ecrã).
 - Aviso de bateria fraca do rato, teclado e auscultadores.
 - Bateria dos auscultadores HyperX Cloud III Wireless (descoberta pelo NEXUS, sem precisar do NGENUITY).
 - Modo jogo e Snap Tap: esconde a tecla Windows, Alt+Tab e Alt+F4 enquanto jogas (e liga o modo jogo dos teclados Razer); Snap Tap em qualquer teclado (desliga-se sozinho no CS2).
 - Bateria do Razer Viper Ultimate (o recetor só respondia ao pedido longo).
-- Bateria de auscultadores SteelSeries (Arctis e Nova), Corsair (Void, HS) e HyperX (Cloud Alpha, Cloud II, Cloud Flight). Modo descobrir: ensina ao NEXUS um aparelho que ele não conhece.
+- Bateria de auscultadores SteelSeries (Arctis e Nova), Corsair (Void, HS) e HyperX (Cloud Alpha, Cloud II, Cloud Flight). Modo descobrir: ensina ao NEXUS um dispositivo que ele não conhece.
 - Cores do papel de parede corrigidas: usa as cores reais da imagem e já não voltam ao tema anterior ao recarregar.
 - Rato sem fios a dormir: o NEXUS mostra "a dormir" e guarda os últimos valores em vez de dar erro.
 - Stream Deck: nova tecla de Bateria; a Estatística do PC volta a mostrar todos os sensores.
-- Stream Deck: bateria dos aparelhos, DPI (carregar troca de nível), microfone e uma tecla para cada macro.
+- Stream Deck: bateria dos dispositivos, DPI (carregar troca de nível), microfone e uma tecla para cada macro.
 - Os avisos do estado do PC (ex.: disco que pode falhar) podem ser ignorados: os dos discos até mudarem, os outros durante 1 hora.
 - Teclas e botões: clica numa tecla do teclado desenhado (ou num botão do rato) para a trocar por outra, desligar, pôr turbo, uma macro, DPI, música…
 - Histórico: o gráfico mostra o período escolhido inteiro e a escala ajusta-se aos valores (as linhas já não ficam espalmadas).
